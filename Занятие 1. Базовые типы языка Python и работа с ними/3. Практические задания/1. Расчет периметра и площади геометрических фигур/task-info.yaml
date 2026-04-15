@@ -4,27 +4,27 @@ files:
     visible: true
     placeholders:
       - offset: 37
-        length: 42
+        length: 40
         placeholder_text: "...  # TODO Задайте значение радиуса круга"
         initial_state:
           length: 42
           offset: 37
         initialized_from_dependency: false
         encrypted_possible_answer: 5
-        selected: false
-        status: Unchecked
-      - offset: 103
-        length: 45
+        selected: true
+        status: Solved
+      - offset: 101
+        length: 43
         placeholder_text: "...  # TODO Задайте значение стороны квадрата"
         initial_state:
           length: 45
           offset: 103
         initialized_from_dependency: false
         encrypted_possible_answer: 5
-        selected: false
-        status: Unchecked
-      - offset: 219
-        length: 45
+        selected: true
+        status: Solved
+      - offset: 215
+        length: 62
         placeholder_text: "...  # TODO Рассчитайте значение по формуле 1"
         initial_state:
           length: 45
@@ -32,37 +32,37 @@ files:
         initialized_from_dependency: false
         encrypted_possible_answer: PI * radius ** 2
         selected: false
-        status: Unchecked
-      - offset: 288
-        length: 45
+        status: Solved
+      - offset: 301
+        length: 57
         placeholder_text: "...  # TODO Рассчитайте значение по формуле 2"
         initial_state:
           length: 45
           offset: 288
         initialized_from_dependency: false
         encrypted_possible_answer: 2 * PI * radius
-        selected: false
-        status: Unchecked
-      - offset: 392
-        length: 45
+        selected: true
+        status: Solved
+      - offset: 417
+        length: 50
         placeholder_text: "...  # TODO Рассчитайте значение по формуле 3"
         initial_state:
           length: 45
           offset: 392
         initialized_from_dependency: false
         encrypted_possible_answer: 4 * side
-        selected: false
-        status: Unchecked
-      - offset: 452
-        length: 45
+        selected: true
+        status: Solved
+      - offset: 482
+        length: 53
         placeholder_text: "...  # TODO Рассчитайте значение по формуле 4"
         initial_state:
           length: 45
           offset: 452
         initialized_from_dependency: false
         encrypted_possible_answer: side ** 2
-        selected: false
-        status: Unchecked
+        selected: true
+        status: Solved
     learner_created: false
   - name: __init__.py
     visible: false
@@ -70,5 +70,8 @@ files:
   - name: tests/output.txt
     visible: false
     learner_created: false
-status: Unchecked
+status: Solved
+feedback:
+  message: Congratulations!
+  time: "Wed, 15 Apr 2026 18:56:48 UTC"
 record: -1
