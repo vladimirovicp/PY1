@@ -1,0 +1,36 @@
+type: output
+files:
+  - name: main.py
+    visible: true
+    placeholders:
+      - offset: 64
+        length: 79
+        placeholder_text: "# TODO Добавьте словарь и замените в нем нулевые значения с\
+      татисчикой посещений"
+        initial_state:
+          length: 79
+          offset: 64
+        initialized_from_dependency: false
+        encrypted_possible_answer: |-
+          # Инициализация словаря статистики
+          stat = {
+              "Общее количество": 0,
+              "Уникальные посещения": 0
+          }
+          
+          stat["Общее количество"] = len(users)
+          stat["Уникальные посещения"] = len(set(users))
+          
+          print(stat)
+        selected: false
+        status: Unchecked
+    learner_created: false
+  - name: __init__.py
+    visible: false
+    learner_created: false
+  - name: tests/output.txt
+    visible: false
+    learner_created: false
+status: Unchecked
+record: -1
+solution_hidden: true

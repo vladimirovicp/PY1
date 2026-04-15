@@ -1,0 +1,32 @@
+type: choice
+is_multiple_choice: false
+options:
+  - text: 1
+    is_correct: false
+  - text: 2
+    is_correct: false
+  - text: 3
+    is_correct: true
+files:
+  - name: __init__.py
+    visible: false
+    learner_created: false
+  - name: img.png
+    visible: false
+    is_binary: true
+    learner_created: false
+  - name: img_1.png
+    visible: false
+    is_binary: true
+    learner_created: false
+  - name: main.py
+    visible: true
+    learner_created: false
+status: Solved
+feedback:
+  message: Congratulations!
+  time: "Wed, 15 Apr 2026 08:14:31 UTC"
+record: -1
+selected_options:
+  - 2
+local_check: true

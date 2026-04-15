@@ -1,0 +1,74 @@
+type: output
+files:
+  - name: main.py
+    visible: true
+    placeholders:
+      - offset: 37
+        length: 42
+        placeholder_text: "...  # TODO Задайте значение радиуса круга"
+        initial_state:
+          length: 42
+          offset: 37
+        initialized_from_dependency: false
+        encrypted_possible_answer: 5
+        selected: false
+        status: Unchecked
+      - offset: 103
+        length: 45
+        placeholder_text: "...  # TODO Задайте значение стороны квадрата"
+        initial_state:
+          length: 45
+          offset: 103
+        initialized_from_dependency: false
+        encrypted_possible_answer: 5
+        selected: false
+        status: Unchecked
+      - offset: 219
+        length: 45
+        placeholder_text: "...  # TODO Рассчитайте значение по формуле 1"
+        initial_state:
+          length: 45
+          offset: 219
+        initialized_from_dependency: false
+        encrypted_possible_answer: PI * radius ** 2
+        selected: false
+        status: Unchecked
+      - offset: 288
+        length: 45
+        placeholder_text: "...  # TODO Рассчитайте значение по формуле 2"
+        initial_state:
+          length: 45
+          offset: 288
+        initialized_from_dependency: false
+        encrypted_possible_answer: 2 * PI * radius
+        selected: false
+        status: Unchecked
+      - offset: 392
+        length: 45
+        placeholder_text: "...  # TODO Рассчитайте значение по формуле 3"
+        initial_state:
+          length: 45
+          offset: 392
+        initialized_from_dependency: false
+        encrypted_possible_answer: 4 * side
+        selected: false
+        status: Unchecked
+      - offset: 452
+        length: 45
+        placeholder_text: "...  # TODO Рассчитайте значение по формуле 4"
+        initial_state:
+          length: 45
+          offset: 452
+        initialized_from_dependency: false
+        encrypted_possible_answer: side ** 2
+        selected: false
+        status: Unchecked
+    learner_created: false
+  - name: __init__.py
+    visible: false
+    learner_created: false
+  - name: tests/output.txt
+    visible: false
+    learner_created: false
+status: Unchecked
+record: -1

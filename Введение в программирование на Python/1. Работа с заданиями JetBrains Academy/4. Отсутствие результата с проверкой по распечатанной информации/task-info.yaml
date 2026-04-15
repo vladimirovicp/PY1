@@ -1,0 +1,31 @@
+type: output
+files:
+  - name: __init__.py
+    visible: false
+    learner_created: false
+  - name: img.png
+    visible: false
+    is_binary: true
+    learner_created: false
+  - name: main.py
+    visible: true
+    placeholders:
+      - offset: 0
+        length: 39
+        placeholder_text: "# TODO Распечатайте строку Hello, World"
+        initial_state:
+          length: 39
+          offset: 0
+        initialized_from_dependency: false
+        encrypted_possible_answer: "print(\"Hello, World\")"
+        selected: false
+        status: Solved
+    learner_created: false
+  - name: tests/output.txt
+    visible: false
+    learner_created: false
+status: Solved
+feedback:
+  message: Congratulations!
+  time: "Wed, 15 Apr 2026 07:49:08 UTC"
+record: -1

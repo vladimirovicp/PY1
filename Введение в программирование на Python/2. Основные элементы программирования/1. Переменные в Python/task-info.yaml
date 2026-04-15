@@ -1,0 +1,39 @@
+type: edu
+files:
+  - name: __init__.py
+    visible: false
+    learner_created: false
+  - name: tests/__init__.py
+    visible: false
+    learner_created: false
+  - name: img.png
+    visible: false
+    is_binary: true
+    learner_created: false
+  - name: img_2.png
+    visible: false
+    is_binary: true
+    learner_created: false
+  - name: task.py
+    visible: true
+    placeholders:
+      - offset: 109
+        length: 80
+        placeholder_text: "# TODO Создайте переменную some_variable и присвоить ей зна\
+      чение \"Hello, World!\""
+        initial_state:
+          length: 80
+          offset: 109
+        initialized_from_dependency: false
+        encrypted_possible_answer: "some_variable = \"Hello, World!\""
+        selected: false
+        status: Solved
+    learner_created: false
+  - name: tests/test_task.py
+    visible: false
+    learner_created: false
+status: Solved
+feedback:
+  message: Congratulations!
+  time: "Wed, 15 Apr 2026 08:35:13 UTC"
+record: -1

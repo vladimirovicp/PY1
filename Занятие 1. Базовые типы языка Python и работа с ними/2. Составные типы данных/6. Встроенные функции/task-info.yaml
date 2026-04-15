@@ -1,0 +1,74 @@
+type: output
+files:
+  - name: main.py
+    visible: true
+    placeholders:
+      - offset: 13
+        length: 36
+        placeholder_text: "...  # TODO сформировать список цифр"
+        initial_state:
+          length: 36
+          offset: 13
+        initialized_from_dependency: false
+        encrypted_possible_answer: "[4, 9, 5, 1, 8, 4]"
+        selected: false
+        status: Unchecked
+      - offset: 89
+        length: 23
+        placeholder_text: "...)  # TODO сумма цифр"
+        initial_state:
+          length: 23
+          offset: 89
+        initialized_from_dependency: false
+        encrypted_possible_answer: sum(list_digit))
+        selected: false
+        status: Unchecked
+      - offset: 138
+        length: 28
+        placeholder_text: "...)  # TODO количество цифр"
+        initial_state:
+          length: 28
+          offset: 138
+        initialized_from_dependency: false
+        encrypted_possible_answer: len(list_digit))
+        selected: false
+        status: Unchecked
+      - offset: 194
+        length: 30
+        placeholder_text: "...)  # TODO минимальная цифра"
+        initial_state:
+          length: 30
+          offset: 194
+        initialized_from_dependency: false
+        encrypted_possible_answer: min(list_digit))
+        selected: false
+        status: Unchecked
+      - offset: 253
+        length: 31
+        placeholder_text: "...)  # TODO максимальная цифра"
+        initial_state:
+          length: 31
+          offset: 253
+        initialized_from_dependency: false
+        encrypted_possible_answer: max(list_digit))
+        selected: false
+        status: Unchecked
+      - offset: 322
+        length: 40
+        placeholder_text: "...)  # TODO среднее арифметическое цифр"
+        initial_state:
+          length: 40
+          offset: 322
+        initialized_from_dependency: false
+        encrypted_possible_answer: "round(sum(list_digit) / len(list_digit), 2))"
+        selected: false
+        status: Unchecked
+    learner_created: false
+  - name: __init__.py
+    visible: false
+    learner_created: false
+  - name: tests/output.txt
+    visible: false
+    learner_created: false
+status: Unchecked
+record: -1
