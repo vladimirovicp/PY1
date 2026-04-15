@@ -4,7 +4,7 @@ files:
     visible: true
     placeholders:
       - offset: 57
-        length: 69
+        length: 92
         placeholder_text: "# TODO найдите и распечатайте количество уникальных символо\
       в в строке"
         initial_state:
@@ -14,8 +14,8 @@ files:
         encrypted_possible_answer: |-
           count_unique_chars = len(set(str_))
           print(count_unique_chars)
-        selected: false
-        status: Unchecked
+        selected: true
+        status: Solved
     learner_created: false
   - name: __init__.py
     visible: false
@@ -23,5 +23,8 @@ files:
   - name: tests/output.txt
     visible: false
     learner_created: false
-status: Unchecked
+status: Solved
+feedback:
+  message: Поздравляю!
+  time: "Wed, 15 Apr 2026 18:42:02 UTC"
 record: -1

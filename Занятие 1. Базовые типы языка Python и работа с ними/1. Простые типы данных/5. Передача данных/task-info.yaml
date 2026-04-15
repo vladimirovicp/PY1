@@ -4,7 +4,7 @@ files:
     visible: true
     placeholders:
       - offset: 180
-        length: 100
+        length: 164
         placeholder_text: "...  # TODO перевести скорость скачивания из байт в килобай\
       ты, если 1 килобайт = 1024 байта"
         initial_state:
@@ -12,30 +12,30 @@ files:
           offset: 180
         initialized_from_dependency: false
         encrypted_possible_answer: speed / 1024
-        selected: true
+        selected: false
         status: Solved
-      - offset: 295
-        length: 43
+      - offset: 359
+        length: 37
         placeholder_text: "...  # TODO перевести время в секунды"
         initial_state:
           length: 37
           offset: 286
         initialized_from_dependency: false
         encrypted_possible_answer: time * 60
-        selected: true
+        selected: false
         status: Solved
-      - offset: 405
-        length: 53
+      - offset: 463
+        length: 24
         placeholder_text: "...  # TODO размер файла"
         initial_state:
           length: 24
           offset: 390
         initialized_from_dependency: false
         encrypted_possible_answer: "time_in_sec * speed_in_kb_in_sec  # размер файла"
-        selected: true
+        selected: false
         status: Solved
-      - offset: 473
-        length: 56
+      - offset: 502
+        length: 27
         placeholder_text: "...  # TODO стоимость файла"
         initial_state:
           length: 27
@@ -43,7 +43,7 @@ files:
         initialized_from_dependency: false
         encrypted_possible_answer: "(file_size - free_traffic) * cost  # стоимость фай\
       ла"
-        selected: true
+        selected: false
         status: Solved
     learner_created: false
   - name: __init__.py
@@ -54,6 +54,6 @@ files:
     learner_created: false
 status: Solved
 feedback:
-  message: Congratulations!
-  time: "Wed, 15 Apr 2026 11:21:37 UTC"
+  message: Поздравляю!
+  time: "Wed, 15 Apr 2026 16:46:23 UTC"
 record: -1

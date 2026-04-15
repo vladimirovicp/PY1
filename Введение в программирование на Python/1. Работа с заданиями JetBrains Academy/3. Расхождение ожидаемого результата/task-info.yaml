@@ -26,7 +26,7 @@ files:
           offset: 414
         initialized_from_dependency: false
         encrypted_possible_answer: '"World")'
-        selected: true
+        selected: false
         status: Solved
     learner_created: false
   - name: tests/output.txt
@@ -34,6 +34,6 @@ files:
     learner_created: false
 status: Solved
 feedback:
-  message: Congratulations!
-  time: "Wed, 15 Apr 2026 07:47:27 UTC"
+  message: Поздравляю!
+  time: "Wed, 15 Apr 2026 16:45:25 UTC"
 record: -1

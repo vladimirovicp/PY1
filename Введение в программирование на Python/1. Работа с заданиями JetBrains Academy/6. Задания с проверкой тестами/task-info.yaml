@@ -24,7 +24,7 @@ files:
           print("Hello")
               print("World")
               print("!!!")
-        selected: true
+        selected: false
         status: Solved
     learner_created: false
   - name: tests/test_task.py
@@ -32,6 +32,6 @@ files:
     learner_created: false
 status: Solved
 feedback:
-  message: Congratulations!
-  time: "Wed, 15 Apr 2026 08:11:30 UTC"
+  message: Поздравляю!
+  time: "Wed, 15 Apr 2026 16:45:33 UTC"
 record: -1

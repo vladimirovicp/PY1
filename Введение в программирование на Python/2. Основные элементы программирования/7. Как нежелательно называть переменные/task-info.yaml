@@ -19,7 +19,7 @@ files:
           offset: 53
         initialized_from_dependency: false
         encrypted_possible_answer: print_ = "test"
-        selected: true
+        selected: false
         status: Solved
     learner_created: false
   - name: tests/output.txt
@@ -27,6 +27,6 @@ files:
     learner_created: false
 status: Solved
 feedback:
-  message: Congratulations!
-  time: "Wed, 15 Apr 2026 08:50:21 UTC"
+  message: Поздравляю!
+  time: "Wed, 15 Apr 2026 16:46:03 UTC"
 record: -1
