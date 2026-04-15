@@ -4,7 +4,7 @@ files:
     visible: true
     placeholders:
       - offset: 180
-        length: 91
+        length: 100
         placeholder_text: "...  # TODO перевести скорость скачивания из байт в килобай\
       ты, если 1 килобайт = 1024 байта"
         initial_state:
@@ -12,30 +12,30 @@ files:
           offset: 180
         initialized_from_dependency: false
         encrypted_possible_answer: speed / 1024
-        selected: false
-        status: Unchecked
-      - offset: 286
-        length: 37
+        selected: true
+        status: Solved
+      - offset: 295
+        length: 43
         placeholder_text: "...  # TODO перевести время в секунды"
         initial_state:
           length: 37
           offset: 286
         initialized_from_dependency: false
         encrypted_possible_answer: time * 60
-        selected: false
-        status: Unchecked
-      - offset: 390
-        length: 24
+        selected: true
+        status: Solved
+      - offset: 405
+        length: 53
         placeholder_text: "...  # TODO размер файла"
         initial_state:
           length: 24
           offset: 390
         initialized_from_dependency: false
         encrypted_possible_answer: "time_in_sec * speed_in_kb_in_sec  # размер файла"
-        selected: false
-        status: Unchecked
-      - offset: 429
-        length: 27
+        selected: true
+        status: Solved
+      - offset: 473
+        length: 56
         placeholder_text: "...  # TODO стоимость файла"
         initial_state:
           length: 27
@@ -43,8 +43,8 @@ files:
         initialized_from_dependency: false
         encrypted_possible_answer: "(file_size - free_traffic) * cost  # стоимость фай\
       ла"
-        selected: false
-        status: Unchecked
+        selected: true
+        status: Solved
     learner_created: false
   - name: __init__.py
     visible: false
@@ -52,5 +52,8 @@ files:
   - name: tests/output.txt
     visible: false
     learner_created: false
-status: Unchecked
+status: Solved
+feedback:
+  message: Congratulations!
+  time: "Wed, 15 Apr 2026 11:21:37 UTC"
 record: -1
