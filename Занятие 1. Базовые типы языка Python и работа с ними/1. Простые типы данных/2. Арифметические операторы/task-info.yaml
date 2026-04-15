@@ -1,0 +1,50 @@
+type: output
+files:
+  - name: main.py
+    visible: true
+    placeholders:
+      - offset: 43
+        length: 106
+        placeholder_text: "# TODO Создайте переменную length для хранения значения дли\
+      ны футбольного поля и запишите туда значения 90"
+        initial_state:
+          length: 106
+          offset: 43
+        initialized_from_dependency: false
+        encrypted_possible_answer: "length = 90  # Длина"
+        selected: false
+        status: Solved
+      - offset: 150
+        length: 106
+        placeholder_text: "# TODO Создайте переменную width для хранения значения шири\
+      ны футбольного поля и запишите туда значения 50"
+        initial_state:
+          length: 106
+          offset: 150
+        initialized_from_dependency: false
+        encrypted_possible_answer: "width = 50  # Ширина"
+        selected: false
+        status: Solved
+      - offset: 316
+        length: 64
+        placeholder_text: "...  # TODO Посчитайте периметр поля используя созданные пе\
+      ременные"
+        initial_state:
+          length: 67
+          offset: 270
+        initialized_from_dependency: false
+        encrypted_possible_answer: (length + width) * 2
+        selected: true
+        status: Solved
+    learner_created: false
+  - name: __init__.py
+    visible: false
+    learner_created: false
+  - name: tests/output.txt
+    visible: false
+    learner_created: false
+status: Solved
+feedback:
+  message: Congratulations!
+  time: "Wed, 15 Apr 2026 10:35:38 UTC"
+record: -1

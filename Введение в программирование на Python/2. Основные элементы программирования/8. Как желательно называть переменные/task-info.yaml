@@ -1,0 +1,52 @@
+type: edu
+files:
+  - name: __init__.py
+    visible: false
+    learner_created: false
+  - name: tests/__init__.py
+    visible: false
+    learner_created: false
+  - name: tests/test_task.py
+    visible: false
+    learner_created: false
+  - name: task.py
+    visible: true
+    placeholders:
+      - offset: 107
+        length: 45
+        placeholder_text: "# TODO Запишите количество секунд в одном дне"
+        initial_state:
+          length: 45
+          offset: 107
+        initialized_from_dependency: false
+        encrypted_possible_answer: "SECONDS_IN_DAY = 24 * 60 * 60  # количество секунд\
+      \ в дне"
+        selected: false
+        status: Solved
+      - offset: 327
+        length: 136
+        placeholder_text: "# TODO Посчитайте количество секунд в десяти днях"
+        initial_state:
+          length: 49
+          offset: 327
+        initialized_from_dependency: false
+        encrypted_possible_answer: "total_seconds_in_ten_days = 10 * SECONDS_IN_DAY  #\
+      \ количество секунд в десяти днях"
+        selected: true
+        status: Solved
+      - offset: 608
+        length: 86
+        placeholder_text: "# TODO Распечатайте количество секунд в десяти днях"
+        initial_state:
+          length: 51
+          offset: 521
+        initialized_from_dependency: false
+        encrypted_possible_answer: "print(\"Количество секунд в десяти днях:\", total_seconds_in_ten_days)"
+        selected: true
+        status: Solved
+    learner_created: false
+status: Solved
+feedback:
+  message: Congratulations!
+  time: "Wed, 15 Apr 2026 08:56:12 UTC"
+record: -1

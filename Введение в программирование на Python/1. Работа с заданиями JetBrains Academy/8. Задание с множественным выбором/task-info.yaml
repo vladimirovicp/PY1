@@ -1,0 +1,36 @@
+type: choice
+is_multiple_choice: true
+options:
+  - text: "PEP 8: E303 too many blank lines (3)"
+    is_correct: true
+  - text: "PEP 8: E202 whitespace before ')'"
+    is_correct: true
+  - text: "PEP 8: W292 no newline at end of file"
+    is_correct: true
+  - text: "PEP 8: E225 missing whitespace around operator"
+    is_correct: true
+  - text: "PEP 8: E201 whitespace after '('"
+    is_correct: true
+files:
+  - name: __init__.py
+    visible: false
+    learner_created: false
+  - name: img.png
+    visible: false
+    is_binary: true
+    learner_created: false
+  - name: main.py
+    visible: true
+    learner_created: false
+status: Solved
+feedback:
+  message: Congratulations!
+  time: "Wed, 15 Apr 2026 08:30:17 UTC"
+record: -1
+selected_options:
+  - 0
+  - 1
+  - 2
+  - 3
+  - 4
+local_check: true

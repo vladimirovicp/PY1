@@ -1,0 +1,27 @@
+type: output
+files:
+  - name: main.py
+    visible: true
+    placeholders:
+      - offset: 71
+        length: 69
+        placeholder_text: "# TODO распечатайте список писем в обратном порядке от новы\
+      х к старым"
+        initial_state:
+          length: 69
+          offset: 71
+        initialized_from_dependency: false
+        encrypted_possible_answer: |-
+          reversed_emails = emails[::-1]
+          print(reversed_emails)
+        selected: false
+        status: Unchecked
+    learner_created: false
+  - name: __init__.py
+    visible: false
+    learner_created: false
+  - name: tests/output.txt
+    visible: false
+    learner_created: false
+status: Unchecked
+record: -1

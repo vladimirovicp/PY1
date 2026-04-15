@@ -1,0 +1,39 @@
+type: output
+files:
+  - name: __init__.py
+    visible: false
+    learner_created: false
+  - name: img.png
+    visible: false
+    is_binary: true
+    learner_created: false
+  - name: img_1.png
+    visible: false
+    is_binary: true
+    learner_created: false
+  - name: img_2.png
+    visible: false
+    is_binary: true
+    learner_created: false
+  - name: main.py
+    visible: true
+    placeholders:
+      - offset: 414
+        length: 54
+        placeholder_text: "...)  # TODO Замените многоточие на строку \"World\""
+        initial_state:
+          length: 50
+          offset: 414
+        initialized_from_dependency: false
+        encrypted_possible_answer: '"World")'
+        selected: true
+        status: Solved
+    learner_created: false
+  - name: tests/output.txt
+    visible: false
+    learner_created: false
+status: Solved
+feedback:
+  message: Congratulations!
+  time: "Wed, 15 Apr 2026 07:47:27 UTC"
+record: -1

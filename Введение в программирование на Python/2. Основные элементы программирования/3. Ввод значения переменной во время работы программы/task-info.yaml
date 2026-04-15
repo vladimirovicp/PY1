@@ -1,0 +1,42 @@
+type: output
+files:
+  - name: __init__.py
+    visible: false
+    learner_created: false
+  - name: tests/output.txt
+    visible: false
+    learner_created: false
+  - name: tests/input.txt
+    visible: false
+    learner_created: false
+  - name: main.py
+    visible: true
+    placeholders:
+      - offset: 13
+        length: 83
+        placeholder_text: ")  # TODO добавьте вспомогательное сообщение в input 'Введи\
+      \ слово: '"
+        initial_state:
+          length: 68
+          offset: 13
+        initialized_from_dependency: false
+        encrypted_possible_answer: "'Введи слово: ')"
+        selected: true
+        status: Solved
+      - offset: 125
+        length: 75
+        placeholder_text: "...)  # TODO распечатайте тип переменной name используя фун\
+      кцию type"
+        initial_state:
+          length: 68
+          offset: 110
+        initialized_from_dependency: false
+        encrypted_possible_answer: type(name))
+        selected: true
+        status: Solved
+    learner_created: false
+status: Solved
+feedback:
+  message: Congratulations!
+  time: "Wed, 15 Apr 2026 08:42:28 UTC"
+record: -1

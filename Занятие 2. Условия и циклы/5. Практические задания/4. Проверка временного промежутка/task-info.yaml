@@ -1,0 +1,34 @@
+type: output
+files:
+  - name: main.py
+    visible: true
+    placeholders:
+      - offset: 11
+        length: 57
+        placeholder_text: "# TODO Реализуйте алгоритм при помощи условных операторов"
+        initial_state:
+          length: 57
+          offset: 11
+        initialized_from_dependency: false
+        encrypted_possible_answer: |-
+          if 6 <= hour <= 11:
+              print("Утро")
+          elif 12 <= hour <= 17:
+              print("День")
+          elif 18 <= hour <= 23:
+              print("Вечер")
+          elif 0 <= hour <= 5:
+              print("Ночь")
+          else:
+              print("Недопустимое количество часов")
+        selected: false
+        status: Unchecked
+    learner_created: false
+  - name: __init__.py
+    visible: false
+    learner_created: false
+  - name: tests/output.txt
+    visible: false
+    learner_created: false
+status: Unchecked
+record: -1

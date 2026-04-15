@@ -1,0 +1,37 @@
+type: edu
+files:
+  - name: __init__.py
+    visible: false
+    learner_created: false
+  - name: tests/__init__.py
+    visible: false
+    learner_created: false
+  - name: task.py
+    visible: true
+    placeholders:
+      - offset: 101
+        length: 106
+        placeholder_text: |-
+          # TODO Установите количество отступов равным одному
+          print("Hello")
+                  print("World")
+                  print("!!!")
+        initial_state:
+          length: 110
+          offset: 101
+        initialized_from_dependency: false
+        encrypted_possible_answer: |-
+          print("Hello")
+              print("World")
+              print("!!!")
+        selected: true
+        status: Solved
+    learner_created: false
+  - name: tests/test_task.py
+    visible: false
+    learner_created: false
+status: Solved
+feedback:
+  message: Congratulations!
+  time: "Wed, 15 Apr 2026 08:11:30 UTC"
+record: -1

@@ -1,0 +1,28 @@
+type: output
+files:
+  - name: main.py
+    visible: true
+    placeholders:
+      - offset: 1074
+        length: 81
+        placeholder_text: "# TODO  Реализуйте алгоритм подсчета пробелов \" \" и симво\
+      лом переноса строки \"\\n\""
+        initial_state:
+          length: 81
+          offset: 1074
+        initialized_from_dependency: false
+        encrypted_possible_answer: |-
+          for char in poem:
+              if char == " " or char == "\n":
+                  count += 1
+        selected: false
+        status: Unchecked
+    learner_created: false
+  - name: __init__.py
+    visible: false
+    learner_created: false
+  - name: tests/output.txt
+    visible: false
+    learner_created: false
+status: Unchecked
+record: -1

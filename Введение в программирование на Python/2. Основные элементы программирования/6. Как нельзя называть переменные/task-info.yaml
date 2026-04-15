@@ -1,0 +1,35 @@
+type: edu
+files:
+  - name: __init__.py
+    visible: false
+    learner_created: false
+  - name: tests/__init__.py
+    visible: false
+    learner_created: false
+  - name: img.png
+    visible: false
+    is_binary: true
+    learner_created: false
+  - name: task.py
+    visible: true
+    placeholders:
+      - offset: 53
+        length: 62
+        placeholder_text: "False = \"Hello, World!\"  # TODO исправьте название переме\
+      нной"
+        initial_state:
+          length: 61
+          offset: 53
+        initialized_from_dependency: false
+        encrypted_possible_answer: "False_ = \"Hello, World!\""
+        selected: true
+        status: Solved
+    learner_created: false
+  - name: tests/test_task.py
+    visible: false
+    learner_created: false
+status: Solved
+feedback:
+  message: Congratulations!
+  time: "Wed, 15 Apr 2026 08:46:46 UTC"
+record: -1
