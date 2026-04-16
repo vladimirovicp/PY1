@@ -13,7 +13,7 @@ files:
     visible: true
     placeholders:
       - offset: 13
-        length: 83
+        length: 90
         placeholder_text: ")  # TODO добавьте вспомогательное сообщение в input 'Введи\
       \ слово: '"
         initial_state:
@@ -21,10 +21,10 @@ files:
           offset: 13
         initialized_from_dependency: false
         encrypted_possible_answer: "'Введи слово: ')"
-        selected: true
+        selected: false
         status: Solved
-      - offset: 125
-        length: 75
+      - offset: 132
+        length: 68
         placeholder_text: "...)  # TODO распечатайте тип переменной name используя фун\
       кцию type"
         initial_state:
@@ -32,11 +32,11 @@ files:
           offset: 110
         initialized_from_dependency: false
         encrypted_possible_answer: type(name))
-        selected: true
+        selected: false
         status: Solved
     learner_created: false
 status: Solved
 feedback:
-  message: Congratulations!
-  time: "Wed, 15 Apr 2026 08:42:28 UTC"
+  message: Поздравляю!
+  time: "Wed, 15 Apr 2026 16:45:56 UTC"
 record: -1

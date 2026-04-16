@@ -4,7 +4,7 @@ files:
     visible: true
     placeholders:
       - offset: 45
-        length: 210
+        length: 259
         placeholder_text: |-
           # TODO Вычислите необходимые значения
           ...
@@ -27,8 +27,8 @@ files:
           print("Среднее арифметическое результатов выстрелов:", average)
           print("Наименьшее количество очков за выстрел:", min_score)
           print("Наибольшее количество очков за выстрел:", max_score)
-        selected: false
-        status: Unchecked
+        selected: true
+        status: Solved
     learner_created: false
   - name: __init__.py
     visible: false
@@ -36,5 +36,8 @@ files:
   - name: tests/output.txt
     visible: false
     learner_created: false
-status: Unchecked
+status: Solved
+feedback:
+  message: Congratulations!
+  time: "Thu, 16 Apr 2026 06:42:07 UTC"
 record: -1

@@ -7,16 +7,16 @@ files:
     visible: true
     placeholders:
       - offset: 0
-        length: 15
+        length: 63
         placeholder_text: 1begin_with_char
         initial_state:
           length: 16
           offset: 0
         initialized_from_dependency: false
         encrypted_possible_answer: begin_with_char
-        selected: true
+        selected: false
         status: Solved
-      - offset: 88
+      - offset: 136
         length: 16
         placeholder_text: one word for var
         initial_state:
@@ -24,9 +24,9 @@ files:
           offset: 89
         initialized_from_dependency: false
         encrypted_possible_answer: one_word_for_var
-        selected: true
+        selected: false
         status: Solved
-      - offset: 182
+      - offset: 230
         length: 47
         placeholder_text: "# TODO распечатать содержимое первой переменной"
         initial_state:
@@ -36,15 +36,15 @@ files:
         encrypted_possible_answer: print(begin_with_char)
         selected: false
         status: Solved
-      - offset: 230
-        length: 95
+      - offset: 278
+        length: 47
         placeholder_text: "# TODO распечатать содержимое второй переменной"
         initial_state:
           length: 47
           offset: 231
         initialized_from_dependency: false
         encrypted_possible_answer: print(one_word_for_var)
-        selected: true
+        selected: false
         status: Solved
     learner_created: false
   - name: tests/output.txt
@@ -52,6 +52,6 @@ files:
     learner_created: false
 status: Solved
 feedback:
-  message: Congratulations!
-  time: "Wed, 15 Apr 2026 08:44:19 UTC"
+  message: Поздравляю!
+  time: "Wed, 15 Apr 2026 16:45:58 UTC"
 record: -1

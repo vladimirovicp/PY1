@@ -22,7 +22,7 @@ files:
           offset: 53
         initialized_from_dependency: false
         encrypted_possible_answer: "False_ = \"Hello, World!\""
-        selected: true
+        selected: false
         status: Solved
     learner_created: false
   - name: tests/test_task.py
@@ -30,6 +30,6 @@ files:
     learner_created: false
 status: Solved
 feedback:
-  message: Congratulations!
-  time: "Wed, 15 Apr 2026 08:46:46 UTC"
+  message: Поздравляю!
+  time: "Wed, 15 Apr 2026 16:46:02 UTC"
 record: -1

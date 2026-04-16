@@ -24,7 +24,7 @@ files:
           
           """Или так"""
           # print("Hello\nWorld")
-        selected: true
+        selected: false
         status: Solved
     learner_created: false
   - name: tests/output.txt
@@ -32,6 +32,6 @@ files:
     learner_created: false
 status: Solved
 feedback:
-  message: Congratulations!
-  time: "Wed, 15 Apr 2026 08:33:13 UTC"
+  message: Поздравляю!
+  time: "Wed, 15 Apr 2026 16:45:48 UTC"
 record: -1

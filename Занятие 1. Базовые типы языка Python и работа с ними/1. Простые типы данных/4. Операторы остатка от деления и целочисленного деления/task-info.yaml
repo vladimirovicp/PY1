@@ -10,7 +10,7 @@ files:
     visible: true
     placeholders:
       - offset: 99
-        length: 40
+        length: 87
         placeholder_text: "...  # TODO найти полное количество дней"
         initial_state:
           length: 40
@@ -18,8 +18,8 @@ files:
         initialized_from_dependency: false
         encrypted_possible_answer: total_hours // HOURS_IN_DAY
         selected: false
-        status: Unchecked
-      - offset: 148
+        status: Solved
+      - offset: 195
         length: 45
         placeholder_text: "...  # TODO найти оставшееся количество часов"
         initial_state:
@@ -28,7 +28,10 @@ files:
         initialized_from_dependency: false
         encrypted_possible_answer: total_hours % HOURS_IN_DAY
         selected: false
-        status: Unchecked
+        status: Solved
     learner_created: false
-status: Unchecked
+status: Solved
+feedback:
+  message: Поздравляю!
+  time: "Wed, 15 Apr 2026 16:46:20 UTC"
 record: -1

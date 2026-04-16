@@ -4,7 +4,7 @@ files:
     visible: true
     placeholders:
       - offset: 15
-        length: 40
+        length: 102
         placeholder_text: "...  # TODO запишите словарь времен года"
         initial_state:
           length: 40
@@ -17,8 +17,8 @@ files:
               3: "Лето",
               4: "Осень",
           }
-        selected: false
-        status: Unchecked
+        selected: true
+        status: Solved
     learner_created: false
   - name: __init__.py
     visible: false
@@ -26,5 +26,8 @@ files:
   - name: tests/output.txt
     visible: false
     learner_created: false
-status: Unchecked
+status: Solved
+feedback:
+  message: Congratulations!
+  time: "Thu, 16 Apr 2026 06:31:05 UTC"
 record: -1

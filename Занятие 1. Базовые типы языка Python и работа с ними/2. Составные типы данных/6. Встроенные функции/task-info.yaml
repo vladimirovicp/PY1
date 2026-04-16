@@ -4,27 +4,27 @@ files:
     visible: true
     placeholders:
       - offset: 13
-        length: 36
+        length: 46
         placeholder_text: "...  # TODO сформировать список цифр"
         initial_state:
           length: 36
           offset: 13
         initialized_from_dependency: false
         encrypted_possible_answer: "[4, 9, 5, 1, 8, 4]"
-        selected: false
-        status: Unchecked
-      - offset: 89
-        length: 23
+        selected: true
+        status: Solved
+      - offset: 99
+        length: 35
         placeholder_text: "...)  # TODO сумма цифр"
         initial_state:
           length: 23
           offset: 89
         initialized_from_dependency: false
         encrypted_possible_answer: sum(list_digit))
-        selected: false
-        status: Unchecked
-      - offset: 138
-        length: 28
+        selected: true
+        status: Solved
+      - offset: 160
+        length: 40
         placeholder_text: "...)  # TODO количество цифр"
         initial_state:
           length: 28
@@ -32,9 +32,9 @@ files:
         initialized_from_dependency: false
         encrypted_possible_answer: len(list_digit))
         selected: false
-        status: Unchecked
-      - offset: 194
-        length: 30
+        status: Solved
+      - offset: 228
+        length: 42
         placeholder_text: "...)  # TODO минимальная цифра"
         initial_state:
           length: 30
@@ -42,9 +42,9 @@ files:
         initialized_from_dependency: false
         encrypted_possible_answer: min(list_digit))
         selected: false
-        status: Unchecked
-      - offset: 253
-        length: 31
+        status: Solved
+      - offset: 299
+        length: 43
         placeholder_text: "...)  # TODO максимальная цифра"
         initial_state:
           length: 31
@@ -52,17 +52,17 @@ files:
         initialized_from_dependency: false
         encrypted_possible_answer: max(list_digit))
         selected: false
-        status: Unchecked
-      - offset: 322
-        length: 40
+        status: Solved
+      - offset: 380
+        length: 77
         placeholder_text: "...)  # TODO среднее арифметическое цифр"
         initial_state:
           length: 40
           offset: 322
         initialized_from_dependency: false
         encrypted_possible_answer: "round(sum(list_digit) / len(list_digit), 2))"
-        selected: false
-        status: Unchecked
+        selected: true
+        status: Solved
     learner_created: false
   - name: __init__.py
     visible: false
@@ -70,5 +70,8 @@ files:
   - name: tests/output.txt
     visible: false
     learner_created: false
-status: Unchecked
+status: Solved
+feedback:
+  message: Поздравляю!
+  time: "Wed, 15 Apr 2026 18:37:33 UTC"
 record: -1
