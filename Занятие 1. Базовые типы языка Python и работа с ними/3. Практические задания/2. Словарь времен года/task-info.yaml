@@ -17,7 +17,7 @@ files:
               3: "Лето",
               4: "Осень",
           }
-        selected: true
+        selected: false
         status: Solved
     learner_created: false
   - name: __init__.py
@@ -29,5 +29,5 @@ files:
 status: Solved
 feedback:
   message: Congratulations!
-  time: "Thu, 16 Apr 2026 06:31:05 UTC"
+  time: "Sun, 19 Apr 2026 09:37:31 UTC"
 record: -1

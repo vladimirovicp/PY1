@@ -7,7 +7,7 @@ files:
     visible: true
     placeholders:
       - offset: 82
-        length: 294
+        length: 209
         placeholder_text: |-
           # TODO найти сумму, количество и среднее арифметическое уникальных чисел
           
@@ -31,7 +31,7 @@ files:
               "Среднее арифметическое уникальных чисел:": average_of_numbers,
           }
           print(describe)
-        selected: true
+        selected: false
         status: Solved
     learner_created: false
   - name: tests/output.txt
@@ -40,5 +40,5 @@ files:
 status: Solved
 feedback:
   message: Congratulations!
-  time: "Thu, 16 Apr 2026 06:52:25 UTC"
+  time: "Sun, 19 Apr 2026 09:37:44 UTC"
 record: -1

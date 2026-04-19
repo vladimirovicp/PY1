@@ -4,7 +4,7 @@ files:
     visible: true
     placeholders:
       - offset: 0
-        length: 300
+        length: 124
         placeholder_text: |-
           # TODO Найдите количество книг, которое можно разместить на дискете
           
@@ -28,7 +28,7 @@ files:
           num_books = int(disk_size // total_bytes)
           
           print("Количество книг, помещающихся на дискету:", num_books)
-        selected: true
+        selected: false
         status: Solved
     learner_created: false
   - name: __init__.py
@@ -44,6 +44,6 @@ files:
 status: Solved
 feedback:
   message: Congratulations!
-  time: "Thu, 16 Apr 2026 08:05:38 UTC"
+  time: "Sun, 19 Apr 2026 09:39:23 UTC"
 record: -1
 solution_hidden: true

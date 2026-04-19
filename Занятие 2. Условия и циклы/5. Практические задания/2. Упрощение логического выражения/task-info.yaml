@@ -4,7 +4,7 @@ files:
     visible: true
     placeholders:
       - offset: 125
-        length: 122
+        length: 109
         placeholder_text: "is_active == True and is_blocked != False:  # TODO Избавьте\
       сь от операторов сравния при работе с логическими типами данных"
         initial_state:
@@ -12,12 +12,12 @@ files:
           offset: 125
         initialized_from_dependency: false
         encrypted_possible_answer: "is_active and not is_blocked:"
-        selected: false
-        status: Unchecked
+        selected: true
+        status: Solved
     learner_created: false
   - name: __init__.py
     visible: false
     learner_created: false
-status: Unchecked
+status: Solved
 record: -1
 post_submission_on_open: true

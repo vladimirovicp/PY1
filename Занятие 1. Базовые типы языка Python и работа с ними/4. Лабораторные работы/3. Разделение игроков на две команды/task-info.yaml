@@ -19,7 +19,7 @@ files:
           
           print(first_team)
           print(second_team)
-        selected: true
+        selected: false
         status: Solved
     learner_created: false
   - name: __init__.py
@@ -31,6 +31,6 @@ files:
 status: Solved
 feedback:
   message: Congratulations!
-  time: "Thu, 16 Apr 2026 08:09:01 UTC"
+  time: "Sun, 19 Apr 2026 09:39:26 UTC"
 record: -1
 solution_hidden: true
