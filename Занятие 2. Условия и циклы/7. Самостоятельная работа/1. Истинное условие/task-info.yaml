@@ -4,7 +4,7 @@ files:
     visible: true
     placeholders:
       - offset: 36
-        length: 63
+        length: 94
         placeholder_text: "...  # TODO записать условие, что только первое число меньш\
       е 45"
         initial_state:
@@ -12,10 +12,10 @@ files:
           offset: 36
         initialized_from_dependency: false
         encrypted_possible_answer: a < 45 and b >= 45 and c >= 45
-        selected: false
-        status: Unchecked
-      - offset: 114
-        length: 63
+        selected: true
+        status: Solved
+      - offset: 145
+        length: 94
         placeholder_text: "...  # TODO записать условие, что только второе число меньш\
       е 45"
         initial_state:
@@ -23,10 +23,10 @@ files:
           offset: 114
         initialized_from_dependency: false
         encrypted_possible_answer: a >= 45 and b < 45 and c >= 45
-        selected: false
-        status: Unchecked
-      - offset: 192
-        length: 63
+        selected: true
+        status: Solved
+      - offset: 254
+        length: 94
         placeholder_text: "...  # TODO записать условие, что только третье число меньш\
       е 45"
         initial_state:
@@ -34,10 +34,10 @@ files:
           offset: 192
         initialized_from_dependency: false
         encrypted_possible_answer: a >= 45 and b >= 45 and c < 45
-        selected: false
-        status: Unchecked
-      - offset: 260
-        length: 86
+        selected: true
+        status: Solved
+      - offset: 353
+        length: 124
         placeholder_text: "...:  # TODO объединить три условия с помощью нужного логич\
       еского оператора and или or"
         initial_state:
@@ -46,7 +46,7 @@ files:
         initialized_from_dependency: false
         encrypted_possible_answer: "condition_1 or condition_2 or condition_3:"
         selected: false
-        status: Unchecked
+        status: Solved
     learner_created: false
   - name: __init__.py
     visible: false
@@ -54,5 +54,8 @@ files:
   - name: tests/output.txt
     visible: false
     learner_created: false
-status: Unchecked
+status: Solved
+feedback:
+  message: Congratulations!
+  time: "Mon, 20 Apr 2026 19:33:44 UTC"
 record: -1

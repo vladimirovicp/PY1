@@ -4,7 +4,7 @@ files:
     visible: true
     placeholders:
       - offset: 14
-        length: 359
+        length: 379
         placeholder_text: |-
           # TODO переписать через if-elif-else
           if x > 0:
@@ -30,8 +30,8 @@ files:
               print("Третья четверть")
           elif x > 0 and y < 0:  # x > 0, y < 0
               print("Четвертая четверть")
-        selected: false
-        status: Unchecked
+        selected: true
+        status: Solved
     learner_created: false
   - name: __init__.py
     visible: false
@@ -39,5 +39,8 @@ files:
   - name: tests/output.txt
     visible: false
     learner_created: false
-status: Unchecked
+status: Solved
+feedback:
+  message: Congratulations!
+  time: "Mon, 20 Apr 2026 19:41:08 UTC"
 record: -1
