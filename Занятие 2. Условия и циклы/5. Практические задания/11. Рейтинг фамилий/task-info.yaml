@@ -14,7 +14,7 @@ files:
           for rank, surname in enumerate(surname_list, start=1):
               print(f"{rank:2} {surname}")
         selected: false
-        status: Unchecked
+        status: Solved
     learner_created: false
   - name: __init__.py
     visible: false
@@ -22,5 +22,8 @@ files:
   - name: tests/output.txt
     visible: false
     learner_created: false
-status: Unchecked
+status: Solved
+feedback:
+  message: Congratulations!
+  time: "Mon, 20 Apr 2026 18:32:49 UTC"
 record: -1
