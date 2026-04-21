@@ -4,7 +4,7 @@ files:
     visible: true
     placeholders:
       - offset: 195
-        length: 306
+        length: 317
         placeholder_text: |-
           # TODO переписать на цикл с постусловием
           while sum_ < max_sum:  # делай пока ...
@@ -24,8 +24,8 @@ files:
               sum_ += n
               n += 1  # так как сумма ещё не достигла нужного значения, то увеличиваем переменную счетчик
               print("Ещё считаю ...", sum_)
-        selected: false
-        status: Unchecked
+        selected: true
+        status: Solved
     learner_created: false
   - name: __init__.py
     visible: false
@@ -33,5 +33,8 @@ files:
   - name: tests/output.txt
     visible: false
     learner_created: false
-status: Unchecked
+status: Solved
+feedback:
+  message: Congratulations!
+  time: "Tue, 21 Apr 2026 07:03:28 UTC"
 record: -1

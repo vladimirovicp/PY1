@@ -14,9 +14,9 @@ files:
         encrypted_possible_answer: |-
           count_even = 0  # количество четных чисел
           count_odd = 0  # количество нечетных чисел
-        selected: false
-        status: Unchecked
-      - offset: 106
+        selected: true
+        status: Solved
+      - offset: 123
         length: 90
         placeholder_text: "# TODO с помощью одного цикла перебрать все числа и посчита\
       ть количество четных и нечетных"
@@ -31,9 +31,9 @@ files:
               else:
                   count_odd += 1
         selected: false
-        status: Unchecked
-      - offset: 198
-        length: 33
+        status: Solved
+      - offset: 317
+        length: 49
         placeholder_text: "# TODO вывести каких чисел больше"
         initial_state:
           length: 33
@@ -46,8 +46,8 @@ files:
               print('Нечетных чисел больше')
           else:
               print('Четных и нечетных одинаковое количество')
-        selected: false
-        status: Unchecked
+        selected: true
+        status: Solved
     learner_created: false
   - name: __init__.py
     visible: false
@@ -55,5 +55,8 @@ files:
   - name: tests/output.txt
     visible: false
     learner_created: false
-status: Unchecked
+status: Solved
+feedback:
+  message: Congratulations!
+  time: "Tue, 21 Apr 2026 07:14:32 UTC"
 record: -1
