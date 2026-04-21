@@ -4,7 +4,7 @@ files:
     visible: true
     placeholders:
       - offset: 22
-        length: 60
+        length: 63
         placeholder_text: "...)  # TODO записать условие с помощью операторов сравнени\
       я"
         initial_state:
@@ -13,9 +13,9 @@ files:
         initialized_from_dependency: false
         encrypted_possible_answer: 5 > 10)
         selected: false
-        status: Unchecked
-      - offset: 104
-        length: 60
+        status: Solved
+      - offset: 107
+        length: 64
         placeholder_text: "...)  # TODO записать условие с помощью операторов сравнени\
       я"
         initial_state:
@@ -24,9 +24,9 @@ files:
         initialized_from_dependency: false
         encrypted_possible_answer: 5 == 10)
         selected: false
-        status: Unchecked
-      - offset: 186
-        length: 60
+        status: Solved
+      - offset: 193
+        length: 63
         placeholder_text: "...)  # TODO записать условие с помощью операторов сравнени\
       я"
         initial_state:
@@ -35,9 +35,9 @@ files:
         initialized_from_dependency: false
         encrypted_possible_answer: 5 != 5)
         selected: false
-        status: Unchecked
-      - offset: 289
-        length: 60
+        status: Solved
+      - offset: 299
+        length: 64
         placeholder_text: "...)  # TODO записать условие с помощью операторов сравнени\
       я"
         initial_state:
@@ -46,9 +46,9 @@ files:
         initialized_from_dependency: false
         encrypted_possible_answer: 5 <= 10)
         selected: false
-        status: Unchecked
-      - offset: 381
-        length: 60
+        status: Solved
+      - offset: 395
+        length: 63
         placeholder_text: "...)  # TODO записать условие с помощью операторов сравнени\
       я"
         initial_state:
@@ -57,9 +57,9 @@ files:
         initialized_from_dependency: false
         encrypted_possible_answer: 5 <= 5)
         selected: false
-        status: Unchecked
-      - offset: 462
-        length: 60
+        status: Solved
+      - offset: 479
+        length: 63
         placeholder_text: "...)  # TODO записать условие с помощью операторов сравнени\
       я"
         initial_state:
@@ -68,7 +68,7 @@ files:
         initialized_from_dependency: false
         encrypted_possible_answer: 5 == 5)
         selected: false
-        status: Unchecked
+        status: Solved
     learner_created: false
   - name: __init__.py
     visible: false
@@ -76,5 +76,8 @@ files:
   - name: tests/output.txt
     visible: false
     learner_created: false
-status: Unchecked
+status: Solved
+feedback:
+  message: Congratulations!
+  time: "Sun, 19 Apr 2026 11:38:40 UTC"
 record: -1

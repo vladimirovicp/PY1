@@ -4,7 +4,7 @@ files:
     visible: true
     placeholders:
       - offset: 95
-        length: 42
+        length: 71
         placeholder_text: "...  # TODO подставить результат выражения"
         initial_state:
           length: 42
@@ -12,7 +12,7 @@ files:
         initialized_from_dependency: false
         encrypted_possible_answer: "True"
         selected: false
-        status: Unchecked
+        status: Solved
     learner_created: false
   - name: __init__.py
     visible: false
@@ -20,5 +20,8 @@ files:
   - name: tests/output.txt
     visible: false
     learner_created: false
-status: Unchecked
+status: Solved
+feedback:
+  message: Congratulations!
+  time: "Tue, 21 Apr 2026 09:40:56 UTC"
 record: -1

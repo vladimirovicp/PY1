@@ -11,32 +11,32 @@ files:
           offset: 9
         initialized_from_dependency: false
         encrypted_possible_answer: 25
-        selected: false
-        status: Unchecked
+        selected: true
+        status: Solved
       - offset: 45
-        length: 53
+        length: 69
         placeholder_text: "...:  # TODO проверьте, что число является счастливым"
         initial_state:
           length: 53
           offset: 45
         initialized_from_dependency: false
         encrypted_possible_answer: "number in [7, 13, 21]:"
-        selected: false
-        status: Unchecked
-      - offset: 135
-        length: 53
+        selected: true
+        status: Solved
+      - offset: 151
+        length: 67
         placeholder_text: "...:  # TODO проверьте, что число попадает в диапазон"
         initial_state:
           length: 53
           offset: 135
         initialized_from_dependency: false
         encrypted_possible_answer: "1 <= number <= 100:"
-        selected: false
-        status: Unchecked
+        selected: true
+        status: Solved
     learner_created: false
   - name: __init__.py
     visible: false
     learner_created: false
-status: Unchecked
+status: Solved
 record: -1
 post_submission_on_open: true

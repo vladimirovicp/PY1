@@ -10,7 +10,7 @@ files:
     visible: true
     placeholders:
       - offset: 0
-        length: 307
+        length: 463
         placeholder_text: |-
           money_capital = 20000  # Подушка безопасности
           salary = 5000  # Ежемесячная зарплата
@@ -42,9 +42,12 @@ files:
               spend *= 1 + increase
           
           print("Количество месяцев, которое можно протянуть без долгов:", month)
-        selected: false
-        status: Unchecked
+        selected: true
+        status: Solved
     learner_created: false
-status: Unchecked
+status: Solved
+feedback:
+  message: Congratulations!
+  time: "Mon, 20 Apr 2026 19:02:46 UTC"
 record: -1
 solution_hidden: true

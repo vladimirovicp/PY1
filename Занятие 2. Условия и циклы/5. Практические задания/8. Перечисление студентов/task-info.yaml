@@ -13,8 +13,8 @@ files:
         encrypted_possible_answer: |-
           for student in list_students:
               print(student)
-        selected: false
-        status: Unchecked
+        selected: true
+        status: Solved
     learner_created: false
   - name: __init__.py
     visible: false
@@ -22,5 +22,8 @@ files:
   - name: tests/output.txt
     visible: false
     learner_created: false
-status: Unchecked
+status: Solved
+feedback:
+  message: Congratulations!
+  time: "Mon, 20 Apr 2026 18:14:39 UTC"
 record: -1

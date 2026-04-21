@@ -4,7 +4,7 @@ files:
     visible: true
     placeholders:
       - offset: 11
-        length: 3
+        length: 2
         placeholder_text: '...'
         initial_state:
           length: 3
@@ -12,8 +12,8 @@ files:
         initialized_from_dependency: false
         encrypted_possible_answer: or
         selected: false
-        status: Unchecked
-      - offset: 61
+        status: Solved
+      - offset: 60
         length: 3
         placeholder_text: '...'
         initial_state:
@@ -22,7 +22,7 @@ files:
         initialized_from_dependency: false
         encrypted_possible_answer: and
         selected: false
-        status: Unchecked
+        status: Solved
     learner_created: false
   - name: __init__.py
     visible: false
@@ -30,5 +30,8 @@ files:
   - name: tests/output.txt
     visible: false
     learner_created: false
-status: Unchecked
+status: Solved
+feedback:
+  message: Congratulations!
+  time: "Sun, 19 Apr 2026 19:03:31 UTC"
 record: -1

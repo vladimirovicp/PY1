@@ -3,16 +3,16 @@ files:
   - name: main.py
     visible: true
     placeholders:
-      - offset: 176
-        length: 56
+      - offset: 189
+        length: 60
         placeholder_text: "...)  # TODO проверить наличие искомого фрукта в корзине"
         initial_state:
           length: 56
           offset: 176
         initialized_from_dependency: false
         encrypted_possible_answer: search_fruit in cart)
-        selected: false
-        status: Unchecked
+        selected: true
+        status: Solved
     learner_created: false
   - name: __init__.py
     visible: false
@@ -20,5 +20,8 @@ files:
   - name: tests/output.txt
     visible: false
     learner_created: false
-status: Unchecked
+status: Solved
+feedback:
+  message: Congratulations!
+  time: "Sun, 19 Apr 2026 19:20:07 UTC"
 record: -1

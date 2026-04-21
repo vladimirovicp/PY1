@@ -4,7 +4,7 @@ files:
     visible: true
     placeholders:
       - offset: 83
-        length: 138
+        length: 95
         placeholder_text: |-
           ...  # TODO Найдите количество уникальных товаров
           
@@ -17,7 +17,7 @@ files:
           unique_items = set(shopping_list)
           
           print("Количество уникальных товаров:", len(unique_items))
-        selected: true
+        selected: false
         status: Solved
     learner_created: false
   - name: __init__.py
@@ -29,5 +29,5 @@ files:
 status: Solved
 feedback:
   message: Congratulations!
-  time: "Thu, 16 Apr 2026 06:44:35 UTC"
+  time: "Sun, 19 Apr 2026 09:37:42 UTC"
 record: -1

@@ -4,17 +4,17 @@ files:
     visible: true
     placeholders:
       - offset: 95
-        length: 50
+        length: 44
         placeholder_text: "...)  # TODO Выведите третье по счету письмо"
         initial_state:
           length: 44
           offset: 95
         initialized_from_dependency: false
         encrypted_possible_answer: "emails[2])"
-        selected: true
+        selected: false
         status: Solved
-      - offset: 177
-        length: 58
+      - offset: 171
+        length: 51
         placeholder_text: "...)  # TODO Выведите предпоследнее по счету письмо"
         initial_state:
           length: 51
@@ -33,5 +33,5 @@ files:
 status: Solved
 feedback:
   message: Congratulations!
-  time: "Thu, 16 Apr 2026 06:37:40 UTC"
+  time: "Sun, 19 Apr 2026 09:37:37 UTC"
 record: -1

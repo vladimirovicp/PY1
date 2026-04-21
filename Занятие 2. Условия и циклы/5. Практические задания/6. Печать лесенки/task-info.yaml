@@ -18,10 +18,13 @@ files:
           for i in range(1, count_stairs + 1):
               print("*" * i)
         selected: false
-        status: Unchecked
+        status: Solved
     learner_created: false
   - name: tests/output.txt
     visible: false
     learner_created: false
-status: Unchecked
+status: Solved
+feedback:
+  message: Congratulations!
+  time: "Sun, 19 Apr 2026 19:27:03 UTC"
 record: -1
