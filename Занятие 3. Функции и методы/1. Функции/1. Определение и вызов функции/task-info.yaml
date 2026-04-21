@@ -4,14 +4,14 @@ files:
     visible: true
     placeholders:
       - offset: 68
-        length: 49
+        length: 50
         placeholder_text: "\"Hello, World\")  # TODO Поменяйте значение строки"
         initial_state:
           length: 49
           offset: 68
         initialized_from_dependency: false
         encrypted_possible_answer: "\"Hello, World!!!\")"
-        selected: false
+        selected: true
         status: Solved
     learner_created: false
   - name: __init__.py
