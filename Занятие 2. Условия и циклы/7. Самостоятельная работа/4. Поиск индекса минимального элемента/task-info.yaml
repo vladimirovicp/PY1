@@ -4,7 +4,7 @@ files:
     visible: true
     placeholders:
       - offset: 161
-        length: 192
+        length: 358
         placeholder_text: |-
           # TODO заменить на enumerate
           for i in range(len(list_)):
@@ -21,7 +21,7 @@ files:
               if current_value <= min_value:
                   min_value = current_value
                   min_value_index = i
-        selected: true
+        selected: false
         status: Solved
     learner_created: false
   - name: __init__.py
@@ -33,5 +33,5 @@ files:
 status: Solved
 feedback:
   message: Congratulations!
-  time: "Tue, 21 Apr 2026 06:44:50 UTC"
+  time: "Tue, 21 Apr 2026 09:40:44 UTC"
 record: -1

@@ -9,8 +9,8 @@ files:
   - name: main.py
     visible: true
     placeholders:
-      - offset: 143
-        length: 162
+      - offset: 358
+        length: 50
         placeholder_text: "# TODO Поменяйте местами значения согласно условию"
         initial_state:
           length: 50
@@ -28,11 +28,11 @@ files:
           
           # Меняем местами последний максимальный и последний элементы
           list_numbers[max_index], list_numbers[-1] = list_numbers[-1], list_numbers[max_index]
-        selected: true
+        selected: false
         status: Solved
     learner_created: false
 status: Solved
 feedback:
   message: Congratulations!
-  time: "Tue, 21 Apr 2026 07:31:08 UTC"
+  time: "Tue, 21 Apr 2026 09:41:05 UTC"
 record: -1
