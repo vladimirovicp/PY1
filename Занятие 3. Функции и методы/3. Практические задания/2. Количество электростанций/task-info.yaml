@@ -4,7 +4,7 @@ files:
     visible: true
     placeholders:
       - offset: 65
-        length: 91
+        length: 211
         placeholder_text: "...  # TODO Найдите количество электростанций, мощность кот\
       орых превышает заданное значение"
         initial_state:
@@ -18,18 +18,18 @@ files:
                       count += 1
           
               return count
-        selected: false
-        status: Unchecked
-      - offset: 411
-        length: 55
+        selected: true
+        status: Solved
+      - offset: 531
+        length: 108
         placeholder_text: "...  # TODO Вызовите функцию count_powerful_powerplants"
         initial_state:
           length: 55
           offset: 411
         initialized_from_dependency: false
         encrypted_possible_answer: "count_powerful_powerplants(powerplants, threshold_power)"
-        selected: false
-        status: Unchecked
+        selected: true
+        status: Solved
     learner_created: false
   - name: __init__.py
     visible: false
@@ -37,5 +37,8 @@ files:
   - name: tests/output.txt
     visible: false
     learner_created: false
-status: Unchecked
+status: Solved
+feedback:
+  message: Congratulations!
+  time: "Tue, 21 Apr 2026 20:34:07 UTC"
 record: -1
