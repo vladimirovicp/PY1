@@ -11,7 +11,7 @@ files:
           offset: 68
         initialized_from_dependency: false
         encrypted_possible_answer: "\"Hello, World!!!\")"
-        selected: true
+        selected: false
         status: Solved
     learner_created: false
   - name: __init__.py

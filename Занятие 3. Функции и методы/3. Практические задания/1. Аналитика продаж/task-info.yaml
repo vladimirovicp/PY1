@@ -18,7 +18,7 @@ files:
           
               return total
         selected: false
-        status: Unchecked
+        status: Failed
       - offset: 359
         length: 103
         placeholder_text: "...  # TODO Вызовете функцию calculate_total_sales и переда\
@@ -29,7 +29,7 @@ files:
         initialized_from_dependency: false
         encrypted_possible_answer: calculate_total_sales(sales_data)
         selected: false
-        status: Unchecked
+        status: Failed
     learner_created: false
   - name: __init__.py
     visible: false
@@ -37,5 +37,12 @@ files:
   - name: tests/output.txt
     visible: false
     learner_created: false
-status: Unchecked
+status: Failed
+feedback:
+  message: Incorrect
+  time: "Tue, 21 Apr 2026 14:16:13 UTC"
+  expected: |
+    Общая стоимость проданных товаров: 14500
+  actual: |
+    Общая стоимость проданных товаров: Ellipsis
 record: -1

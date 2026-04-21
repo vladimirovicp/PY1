@@ -16,7 +16,7 @@ files:
               return product
         selected: false
         status: Solved
-      - offset: 111
+      - offset: 45
         length: 96
         placeholder_text: "# TODO Перемножьте с помощью функции `multiply_numbers` три\
       \ пары чисел и распечатайте результаты"
@@ -44,5 +44,5 @@ files:
 status: Solved
 feedback:
   message: Congratulations!
-  time: "Tue, 21 Apr 2026 10:45:29 UTC"
+  time: "Tue, 21 Apr 2026 14:15:52 UTC"
 record: -1
