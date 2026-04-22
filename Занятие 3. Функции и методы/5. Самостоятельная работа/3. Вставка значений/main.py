@@ -1,6 +1,21 @@
 # TODO реализовать функцию
-def insert():
-    ...
+def insert(list, value, index = 0):
+
+    # print(list, value,  index)
+
+    new_list = []
+
+    for i, v in enumerate(list):
+        if i == index:
+            new_list.append(value)
+            new_list.append(v)
+        else:
+            new_list.append(v)
+
+    if index + 1  > len(list):
+        new_list.append(value)
+
+    return new_list
 
 
 print(insert([1], value=0))  # [0, 1]

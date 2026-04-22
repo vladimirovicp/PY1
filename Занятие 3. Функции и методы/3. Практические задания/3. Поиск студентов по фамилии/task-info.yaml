@@ -4,7 +4,7 @@ files:
     visible: true
     placeholders:
       - offset: 56
-        length: 58
+        length: 176
         placeholder_text: "...  # TODO Напишите проверку студента с заданной фамилией"
         initial_state:
           length: 58
@@ -16,7 +16,7 @@ files:
                       return True
               return False
         selected: false
-        status: Unchecked
+        status: Solved
     learner_created: false
   - name: __init__.py
     visible: false
@@ -24,5 +24,8 @@ files:
   - name: tests/output.txt
     visible: false
     learner_created: false
-status: Unchecked
+status: Solved
+feedback:
+  message: Congratulations!
+  time: "Wed, 22 Apr 2026 09:49:45 UTC"
 record: -1

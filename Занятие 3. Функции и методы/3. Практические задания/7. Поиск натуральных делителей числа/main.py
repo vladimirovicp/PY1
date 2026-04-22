@@ -1,5 +1,12 @@
 def get_list_number_divisors(number):
-    ...  # TODO Найдите список делителей числа number
+    # TODO Найдите список делителей числа number
+    list_=[]
+
+    for i in range(1, number + 1):
+        if number % i == 0:
+            list_.append(i)
+
+    return list_
 
 
 print(get_list_number_divisors(23))

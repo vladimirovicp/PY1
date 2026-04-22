@@ -1,5 +1,11 @@
 def count_powerful_powerplants(powerplants_list, threshold):
-    ...  # TODO Найдите количество электростанций, мощность которых превышает заданное значение
+    # TODO Найдите количество электростанций, мощность которых превышает заданное значение
+    coutn = 0
+    for data in powerplants_list:
+        if data["power"] > threshold:
+            coutn+=1
+    return coutn
+
 
 
 powerplants = [
@@ -12,5 +18,5 @@ powerplants = [
 
 threshold_power = 2000
 
-powerplants_count = ...  # TODO Вызовите функцию count_powerful_powerplants
+powerplants_count = count_powerful_powerplants(powerplants, threshold_power)  # TODO Вызовите функцию count_powerful_powerplants
 print(f"Количество электростанций, мощность которых превышает заданное значение: {powerplants_count}")

@@ -21,8 +21,8 @@ files:
           
               return result
         selected: false
-        status: Unchecked
-      - offset: 38
+        status: Solved
+      - offset: 190
         length: 139
         placeholder_text: "# TODO Вызовите функцию factorial и распечатайте результат\
       \ \nprint(f\"Факториал числа 0 равен {...}\")\nprint(f\"Факториал числа 5 ра\
@@ -35,7 +35,7 @@ files:
           print(f"Факториал числа 0 равен {factorial(0)}")
           print(f"Факториал числа 5 равен {factorial(5)}")
         selected: false
-        status: Unchecked
+        status: Solved
     learner_created: false
   - name: __init__.py
     visible: false
@@ -43,5 +43,8 @@ files:
   - name: tests/output.txt
     visible: false
     learner_created: false
-status: Unchecked
+status: Solved
+feedback:
+  message: Congratulations!
+  time: "Wed, 22 Apr 2026 09:49:52 UTC"
 record: -1

@@ -17,8 +17,8 @@ files:
               average = sum(all_ages) / len(all_ages)
               return average
         selected: false
-        status: Unchecked
-      - offset: 194
+        status: Solved
+      - offset: 475
         length: 94
         placeholder_text: "print(f\"Средний возраст студентов: {...)} лет\")  # TODO Р\
       аспечатайте средний возраст студентов"
@@ -29,7 +29,7 @@ files:
         encrypted_possible_answer: "print(f\"Средний возраст студентов: {calculate_average_age(students_dict)}\"\
       )"
         selected: false
-        status: Unchecked
+        status: Solved
     learner_created: false
   - name: __init__.py
     visible: false
@@ -37,5 +37,8 @@ files:
   - name: tests/output.txt
     visible: false
     learner_created: false
-status: Unchecked
+status: Solved
+feedback:
+  message: Congratulations!
+  time: "Wed, 22 Apr 2026 09:50:07 UTC"
 record: -1

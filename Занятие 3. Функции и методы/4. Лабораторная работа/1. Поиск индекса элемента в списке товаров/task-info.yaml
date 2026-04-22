@@ -19,21 +19,24 @@ files:
                   if current_item == item:
                       return index
         selected: false
-        status: Unchecked
-      - offset: 188
-        length: 56
+        status: Solved
+      - offset: 342
+        length: 90
         placeholder_text: "...  # TODO Вызовите функцию, что получить индекс товара"
         initial_state:
           length: 56
           offset: 188
         initialized_from_dependency: false
         encrypted_possible_answer: "find_item_index(items_list, find_item)"
-        selected: false
-        status: Unchecked
+        selected: true
+        status: Solved
     learner_created: false
   - name: tests/output.txt
     visible: false
     learner_created: false
-status: Unchecked
+status: Solved
+feedback:
+  message: Congratulations!
+  time: "Wed, 22 Apr 2026 17:32:52 UTC"
 record: -1
 solution_hidden: true

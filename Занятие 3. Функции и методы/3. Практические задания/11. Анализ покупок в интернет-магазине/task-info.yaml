@@ -16,8 +16,8 @@ files:
               common_purchases.sort()
               return common_purchases
         selected: false
-        status: Unchecked
-      - offset: 168
+        status: Solved
+      - offset: 444
         length: 63
         placeholder_text: "print(f\"Общие товары: {...}\")  # TODO Распечатайте общие\
       \ товары"
@@ -28,7 +28,7 @@ files:
         encrypted_possible_answer: "print(f\"Общие товары: {find_common_items(last_week_items,\
       \ current_week_items)}\")"
         selected: false
-        status: Unchecked
+        status: Solved
     learner_created: false
   - name: __init__.py
     visible: false
@@ -36,5 +36,8 @@ files:
   - name: tests/output.txt
     visible: false
     learner_created: false
-status: Unchecked
+status: Solved
+feedback:
+  message: Congratulations!
+  time: "Wed, 22 Apr 2026 09:50:10 UTC"
 record: -1

@@ -1,5 +1,10 @@
 def exists_student_by_lastname(students, lastname):
-    ...  # TODO Напишите проверку студента с заданной фамилией
+    # TODO Напишите проверку студента с заданной фамилией
+    flag = False
+    for data in students:
+        if data['фамилия'] == lastname:
+            flag = True
+    return flag
 
 
 students_list = [
