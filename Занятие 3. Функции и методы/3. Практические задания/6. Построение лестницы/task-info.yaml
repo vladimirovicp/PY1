@@ -22,7 +22,7 @@ files:
                   print("*" * i)
         selected: false
         status: Solved
-      - offset: 115
+      - offset: 148
         length: 62
         placeholder_text: "# TODO вызвать функцию без аргументов и с аргументом равным\
       \ 10"
@@ -39,5 +39,5 @@ files:
 status: Solved
 feedback:
   message: Congratulations!
-  time: "Wed, 22 Apr 2026 06:52:34 UTC"
+  time: "Wed, 22 Apr 2026 09:49:54 UTC"
 record: -1

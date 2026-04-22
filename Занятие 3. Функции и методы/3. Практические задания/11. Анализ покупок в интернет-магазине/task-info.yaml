@@ -17,8 +17,8 @@ files:
               return common_purchases
         selected: false
         status: Solved
-      - offset: 393
-        length: 114
+      - offset: 444
+        length: 63
         placeholder_text: "print(f\"Общие товары: {...}\")  # TODO Распечатайте общие\
       \ товары"
         initial_state:
@@ -27,7 +27,7 @@ files:
         initialized_from_dependency: false
         encrypted_possible_answer: "print(f\"Общие товары: {find_common_items(last_week_items,\
       \ current_week_items)}\")"
-        selected: true
+        selected: false
         status: Solved
     learner_created: false
   - name: __init__.py
@@ -39,5 +39,5 @@ files:
 status: Solved
 feedback:
   message: Congratulations!
-  time: "Wed, 22 Apr 2026 08:52:05 UTC"
+  time: "Wed, 22 Apr 2026 09:50:10 UTC"
 record: -1

@@ -20,10 +20,10 @@ files:
                   result *= num
           
               return result
-        selected: true
+        selected: false
         status: Solved
-      - offset: 171
-        length: 158
+      - offset: 190
+        length: 139
         placeholder_text: "# TODO Вызовите функцию factorial и распечатайте результат\
       \ \nprint(f\"Факториал числа 0 равен {...}\")\nprint(f\"Факториал числа 5 ра\
       вен {...}\")"
@@ -34,7 +34,7 @@ files:
         encrypted_possible_answer: |-
           print(f"Факториал числа 0 равен {factorial(0)}")
           print(f"Факториал числа 5 равен {factorial(5)}")
-        selected: true
+        selected: false
         status: Solved
     learner_created: false
   - name: __init__.py
@@ -46,5 +46,5 @@ files:
 status: Solved
 feedback:
   message: Congratulations!
-  time: "Wed, 22 Apr 2026 06:44:34 UTC"
+  time: "Wed, 22 Apr 2026 09:49:52 UTC"
 record: -1
