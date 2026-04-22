@@ -4,7 +4,7 @@ files:
     visible: true
     placeholders:
       - offset: 465
-        length: 30
+        length: 362
         placeholder_text: "...  # TODO Реализуйте функцию"
         initial_state:
           length: 30
@@ -21,10 +21,10 @@ files:
                       else:
                           letter_count[char] = 1
               return letter_count
-        selected: false
-        status: Unchecked
-      - offset: 1095
-        length: 30
+        selected: true
+        status: Solved
+      - offset: 1427
+        length: 72
         placeholder_text: "...  # TODO Реализуйте функцию"
         initial_state:
           length: 30
@@ -34,10 +34,10 @@ files:
       \    letter_frequency = {}\n    for current_letter, count in letter_count.items():\n\
       \        letter_frequency[current_letter] = count / total_letters\n        \n\
       \    return letter_frequency"
-        selected: false
-        status: Unchecked
-      - offset: 2127
-        length: 57
+        selected: true
+        status: Solved
+      - offset: 2624
+        length: 184
         placeholder_text: "# TODO Распечатайте в столбик букву и её частоту в тексте"
         initial_state:
           length: 57
@@ -46,8 +46,8 @@ files:
         encrypted_possible_answer: |-
           for letter, frequency in frequency_dict.items():
               print(f"{letter}: {frequency:.2f}")
-        selected: false
-        status: Unchecked
+        selected: true
+        status: Solved
     learner_created: false
   - name: __init__.py
     visible: false
@@ -55,6 +55,9 @@ files:
   - name: tests/output.txt
     visible: false
     learner_created: false
-status: Unchecked
+status: Solved
+feedback:
+  message: Congratulations!
+  time: "Wed, 22 Apr 2026 18:57:26 UTC"
 record: -1
 solution_hidden: true

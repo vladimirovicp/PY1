@@ -9,7 +9,23 @@ def count_letters(text: str) -> dict:
         print(result)  # {'у': 3, 'л': 2, 'к': 1, 'о': 2, 'м': 1, 'р': 1, 'ь': 1, 'я': 1, 'д': 1, 'б': 1, 'з': 1,
         'е': 1, 'ё': 1, 'н': 1, 'ы': 1, 'й': 1}
     """
-    ...  # TODO Реализуйте функцию
+    # TODO Реализуйте функцию
+
+    text_lower = text.lower()
+    text_split = text_lower.split()
+    # print(text_split)
+
+    dict = {}
+
+
+    for word in text_split:
+        for char in word:
+            if char.isalpha():
+                if dict.get(char):
+                    dict[char] += 1
+                else:
+                    dict[char] = 1
+    return dict
 
 
 def calculate_frequency(letter_count: dict) -> dict:
@@ -23,8 +39,14 @@ def calculate_frequency(letter_count: dict) -> dict:
         print(result)  # {'у': 0.15, 'л': 0.1, 'к': 0.05, 'о': 0.1, 'м': 0.05, 'р': 0.05, 'ь': 0.05, 'я': 0.05,
         'д': 0.05, 'б': 0.05, 'з': 0.05, 'е': 0.05, 'ё': 0.05, 'н': 0.05, 'ы': 0.05, 'й': 0.05}
     """
-    ...  # TODO Реализуйте функцию
+    # TODO Реализуйте функцию
 
+    total_count = sum(letter_count.values())
+
+    for key in letter_count:
+        letter_count[key] = round(letter_count[key] / total_count, 2)
+
+    return letter_count
 
 main_str = """
 У лукоморья дуб зелёный;
@@ -66,3 +88,14 @@ count_dict = count_letters(main_str)
 frequency_dict = calculate_frequency(count_dict)
 
 # TODO Распечатайте в столбик букву и её частоту в тексте
+
+# print(count_dict)
+
+# for letter, freq in count_dict.items():
+#     print(f"{letter}: {freq:.2f}")
+
+
+# print(frequency_dict)
+
+for letter, freq in frequency_dict.items():
+    print(f"{letter}: {freq:.2f}")
