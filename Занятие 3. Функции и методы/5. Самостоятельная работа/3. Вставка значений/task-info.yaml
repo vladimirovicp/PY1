@@ -4,7 +4,7 @@ files:
     visible: true
     placeholders:
       - offset: 0
-        length: 48
+        length: 367
         placeholder_text: |-
           # TODO реализовать функцию
           def insert():
@@ -16,8 +16,8 @@ files:
         encrypted_possible_answer: |-
           def insert(list_, value, index=0):
               return list_[:index] + [value] + list_[index:]
-        selected: false
-        status: Unchecked
+        selected: true
+        status: Solved
     learner_created: false
   - name: __init__.py
     visible: false
@@ -25,5 +25,8 @@ files:
   - name: tests/output.txt
     visible: false
     learner_created: false
-status: Unchecked
+status: Solved
+feedback:
+  message: Congratulations!
+  time: "Wed, 22 Apr 2026 19:34:45 UTC"
 record: -1
