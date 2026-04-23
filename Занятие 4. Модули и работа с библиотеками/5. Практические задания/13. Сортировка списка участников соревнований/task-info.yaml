@@ -14,7 +14,7 @@ files:
           def sort_participants(participants: list[dict]) -> list[dict]:
               return sorted(participants, key=lambda item: item["name"])
         selected: false
-        status: Unchecked
+        status: Solved
     learner_created: false
   - name: __init__.py
     visible: false
@@ -22,5 +22,8 @@ files:
   - name: tests/output.txt
     visible: false
     learner_created: false
-status: Unchecked
+status: Solved
+feedback:
+  message: Congratulations!
+  time: "Thu, 23 Apr 2026 19:45:33 UTC"
 record: -1

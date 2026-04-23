@@ -1,6 +1,13 @@
 # TODO написать функцию index
-def index():
-    ...
+def index(list:list[int], num:int)->list[int]:
+
+    result = [i for i, n in enumerate(list) if n == num]
+
+    if not  result:
+        raise ValueError("Значение не найдено!")
+
+    return result
+
 
 
 if __name__ == '__main__':

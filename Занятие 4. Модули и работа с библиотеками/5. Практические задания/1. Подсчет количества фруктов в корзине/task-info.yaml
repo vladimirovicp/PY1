@@ -3,18 +3,18 @@ files:
   - name: main.py
     visible: true
     placeholders:
-      - offset: 0
-        length: 49
+      - offset: 8
+        length: 24
         placeholder_text: "# TODO Импортируйте Counter из модуля collections"
         initial_state:
           length: 49
           offset: 0
         initialized_from_dependency: false
         encrypted_possible_answer: from collections import Counter
-        selected: false
-        status: Unchecked
-      - offset: 662
-        length: 43
+        selected: true
+        status: Solved
+      - offset: 708
+        length: 82
         placeholder_text: "# TODO Подсчитайте фрукты с помощью Counter"
         initial_state:
           length: 43
@@ -23,8 +23,8 @@ files:
         encrypted_possible_answer: |-
           fruit_counter = Counter(cart_fruits)
               print(fruit_counter)
-        selected: false
-        status: Unchecked
+        selected: true
+        status: Solved
     learner_created: false
   - name: __init__.py
     visible: false
@@ -32,5 +32,8 @@ files:
   - name: tests/output.txt
     visible: false
     learner_created: false
-status: Unchecked
+status: Solved
+feedback:
+  message: Congratulations!
+  time: "Thu, 23 Apr 2026 15:15:11 UTC"
 record: -1

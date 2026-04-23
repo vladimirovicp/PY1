@@ -3,11 +3,13 @@ def generate_even_squares(n):
     Функция для генерации списка квадратов четных чисел от 0 до N.
     """
     # TODO Замените на list comprehension c условием фильтрации
-    even_squares = []
-    for i in range(n+1):
-        if i % 2 == 0:
-            even_squares.append(i**2)
-    return even_squares
+    # even_squares = []
+    # for i in range(n+1):
+    #     if i % 2 == 0:
+    #         even_squares.append(i**2)
+    # return even_squares
+
+    return [(i**2) for i in range(n + 1) if i % 2 == 0]
 
 
 if __name__ == '__main__':

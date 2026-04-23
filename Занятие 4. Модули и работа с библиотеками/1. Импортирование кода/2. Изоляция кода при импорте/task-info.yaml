@@ -13,7 +13,7 @@ files:
     visible: true
     placeholders:
       - offset: 70
-        length: 241
+        length: 237
         placeholder_text: |-
           # TODO Поместите код в условие if __name__ == '__main__':
           print(f"Функция `calculate_square_area` вызвана в модуле {__name__}")  # Печать переменной с названием модуля
@@ -26,11 +26,11 @@ files:
           if __name__ == '__main__':
               print(f"Функция `calculate_square_area` вызвана в модуле {__name__}")  # Печать переменной с названием модуля
               print(calculate_square_area(2))  # код оставшийся от проверки функции
-        selected: true
+        selected: false
         status: Solved
     learner_created: false
 status: Solved
 feedback:
   message: Congratulations!
-  time: "Thu, 23 Apr 2026 07:27:57 UTC"
+  time: "Thu, 23 Apr 2026 15:08:33 UTC"
 record: -1

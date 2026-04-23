@@ -14,17 +14,17 @@ files:
           def get_oldest_participant(participants):
               return max(participants, key=lambda item: item["age"])
         selected: false
-        status: Unchecked
-      - offset: 495
-        length: 45
+        status: Solved
+      - offset: 609
+        length: 82
         placeholder_text: "...  # TODO Найдите самого старшего участника"
         initial_state:
           length: 45
           offset: 495
         initialized_from_dependency: false
         encrypted_possible_answer: get_oldest_participant(participants_list)
-        selected: false
-        status: Unchecked
+        selected: true
+        status: Solved
     learner_created: false
   - name: __init__.py
     visible: false
@@ -32,5 +32,8 @@ files:
   - name: tests/output.txt
     visible: false
     learner_created: false
-status: Unchecked
+status: Solved
+feedback:
+  message: Congratulations!
+  time: "Thu, 23 Apr 2026 19:40:10 UTC"
 record: -1
