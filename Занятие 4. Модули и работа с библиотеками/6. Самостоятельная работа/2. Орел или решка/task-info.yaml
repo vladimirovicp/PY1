@@ -3,8 +3,8 @@ files:
   - name: main.py
     visible: true
     placeholders:
-      - offset: 331
-        length: 57
+      - offset: 376
+        length: 140
         placeholder_text: "...  # TODO подсчитать количество выпаданий орлов и решек"
         initial_state:
           length: 57
@@ -20,9 +20,9 @@ files:
                       eagle_count += 1
                   else:
                       tails_count += 1
-        selected: false
-        status: Unchecked
-      - offset: 394
+        selected: true
+        status: Solved
+      - offset: 521
         length: 98
         placeholder_text: "# TODO разделить минимальное число среди орлов и решек на м\
       аксимальное число и сохранить результат"
@@ -33,12 +33,12 @@ files:
         encrypted_possible_answer: |-
           freq = min(eagle_count, tails_count) / max(eagle_count, tails_count)
               list_freq.append(freq)
-        selected: false
-        status: Unchecked
+        selected: true
+        status: Solved
     learner_created: false
   - name: __init__.py
     visible: false
     learner_created: false
-status: Unchecked
+status: Solved
 record: -1
 post_submission_on_open: true

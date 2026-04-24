@@ -3,8 +3,8 @@ files:
   - name: main.py
     visible: true
     placeholders:
-      - offset: 0
-        length: 57
+      - offset: 15
+        length: 81
         placeholder_text: "# TODO написать функцию, которая выдает трехзначное число"
         initial_state:
           length: 57
@@ -22,12 +22,12 @@ files:
           
           
           print(get_random_number())
-        selected: false
-        status: Unchecked
+        selected: true
+        status: Solved
     learner_created: false
   - name: __init__.py
     visible: false
     learner_created: false
-status: Unchecked
+status: Solved
 record: -1
 post_submission_on_open: true
