@@ -14,9 +14,9 @@ files:
           def get_student_names(students: list[dict]) -> list[str]:
               """Функция для извлечения списка имен учеников из списка словарей с информацией о них."""
               return [student["name"] for student in students]
-        selected: false
-        status: Unchecked
-      - offset: 493
+        selected: true
+        status: Solved
+      - offset: 572
         length: 41
         placeholder_text: "# TODO Вызовите функцию get_student_names"
         initial_state:
@@ -25,7 +25,7 @@ files:
         initialized_from_dependency: false
         encrypted_possible_answer: print(get_student_names(students_list))
         selected: false
-        status: Unchecked
+        status: Solved
     learner_created: false
   - name: tests/test_task.py
     visible: false
@@ -36,5 +36,8 @@ files:
   - name: tests/__init__.py
     visible: false
     learner_created: false
-status: Unchecked
+status: Solved
+feedback:
+  message: Congratulations!
+  time: "Thu, 23 Apr 2026 15:31:45 UTC"
 record: -1

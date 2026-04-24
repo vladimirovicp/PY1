@@ -4,7 +4,7 @@ files:
     visible: true
     placeholders:
       - offset: 43
-        length: 60
+        length: 193
         placeholder_text: "...  # TODO проверить что число шестизначное и положительно\
       е"
         initial_state:
@@ -16,10 +16,10 @@ files:
                   raise ValueError("Число не является положительным :(")
               if len(str(num)) != 6:
                   raise ValueError("Число не шестизначное :(")
-        selected: false
-        status: Unchecked
-      - offset: 109
-        length: 46
+        selected: true
+        status: Solved
+      - offset: 332
+        length: 65
         placeholder_text: "...  # TODO проверить счастливое число или нет"
         initial_state:
           length: 46
@@ -28,8 +28,8 @@ files:
         encrypted_possible_answer: |-
           list_digits = [int(digit) for digit in str(num)]
               return sum(list_digits[:3]) == sum(list_digits[3:])
-        selected: false
-        status: Unchecked
+        selected: true
+        status: Solved
     learner_created: false
   - name: __init__.py
     visible: false
@@ -37,5 +37,8 @@ files:
   - name: tests/output.txt
     visible: false
     learner_created: false
-status: Unchecked
+status: Solved
+feedback:
+  message: Congratulations!
+  time: "Thu, 23 Apr 2026 19:14:43 UTC"
 record: -1

@@ -4,7 +4,7 @@ files:
     visible: true
     placeholders:
       - offset: 0
-        length: 45
+        length: 0
         placeholder_text: "# TODO Напишите функцию calculate_average_age"
         initial_state:
           length: 45
@@ -16,9 +16,9 @@ files:
               total_age = sum([student['age'] for student in students])
               avg_age = total_age / len(students)
               return avg_age
-        selected: false
-        status: Unchecked
-      - offset: 48
+        selected: true
+        status: Solved
+      - offset: 150
         length: 46
         placeholder_text: "# TODO Напишите функцию filter_students_by_age"
         initial_state:
@@ -31,9 +31,9 @@ files:
               filtered = [student for student in students if student['age'] < filter_age]
               return filtered
         selected: false
-        status: Unchecked
-      - offset: 582
-        length: 85
+        status: Solved
+      - offset: 813
+        length: 167
         placeholder_text: |-
           # TODO Вычислите средний возраст учеников
               print("Средний возраст учеников:", ...)
@@ -44,10 +44,10 @@ files:
         encrypted_possible_answer: |-
           average_age = calculate_average_age(students_list)
               print("Средний возраст учеников:", average_age)
-        selected: false
-        status: Unchecked
-      - offset: 711
-        length: 156
+        selected: true
+        status: Solved
+      - offset: 1024
+        length: 272
         placeholder_text: |-
           # TODO Офильтруйте учеников
               print("Список учеников с возрастом меньше среднего:")
@@ -62,8 +62,8 @@ files:
               print("Список учеников с возрастом меньше среднего:")
               for current_student in filtered_students:
                   print(current_student['name'])
-        selected: false
-        status: Unchecked
+        selected: true
+        status: Solved
     learner_created: false
   - name: tests/test_task.py
     visible: false
@@ -74,5 +74,8 @@ files:
   - name: tests/__init__.py
     visible: false
     learner_created: false
-status: Unchecked
+status: Solved
+feedback:
+  message: Congratulations!
+  time: "Thu, 23 Apr 2026 16:16:57 UTC"
 record: -1

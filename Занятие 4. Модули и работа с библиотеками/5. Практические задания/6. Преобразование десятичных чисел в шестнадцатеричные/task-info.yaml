@@ -20,9 +20,9 @@ files:
               """
               return {decimal: hex(decimal) for decimal in range(16)}
         selected: false
-        status: Unchecked
-      - offset: 72
-        length: 75
+        status: Solved
+      - offset: 135
+        length: 95
         placeholder_text: "...  # TODO Распечатайте словарь с десятичными и шестнадцат\
       еричными числами"
         initial_state:
@@ -33,7 +33,7 @@ files:
           converted_dict = decimal_to_hex()
               print(converted_dict)
         selected: false
-        status: Unchecked
+        status: Solved
     learner_created: false
   - name: __init__.py
     visible: false
@@ -41,5 +41,8 @@ files:
   - name: tests/output.txt
     visible: false
     learner_created: false
-status: Unchecked
+status: Solved
+feedback:
+  message: Congratulations!
+  time: "Thu, 23 Apr 2026 16:42:38 UTC"
 record: -1

@@ -21,7 +21,7 @@ files:
                   else:
                       tails_count += 1
         selected: false
-        status: Unchecked
+        status: Solved
       - offset: 394
         length: 98
         placeholder_text: "# TODO разделить минимальное число среди орлов и решек на м\
@@ -34,11 +34,11 @@ files:
           freq = min(eagle_count, tails_count) / max(eagle_count, tails_count)
               list_freq.append(freq)
         selected: false
-        status: Unchecked
+        status: Solved
     learner_created: false
   - name: __init__.py
     visible: false
     learner_created: false
-status: Unchecked
+status: Solved
 record: -1
 post_submission_on_open: true
