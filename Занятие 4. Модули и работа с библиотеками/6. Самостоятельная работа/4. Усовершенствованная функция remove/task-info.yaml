@@ -4,7 +4,7 @@ files:
     visible: true
     placeholders:
       - offset: 0
-        length: 304
+        length: 52
         placeholder_text: |-
           # TODO написать функцию remove
           def remove():
@@ -27,7 +27,7 @@ files:
                   raise ValueError("Значение не найдено")
               else:
                   return list_[:last_index_value] + list_[last_index_value + 1:]
-        selected: true
+        selected: false
         status: Solved
     learner_created: false
   - name: __init__.py
@@ -39,5 +39,5 @@ files:
 status: Solved
 feedback:
   message: Congratulations!
-  time: "Fri, 24 Apr 2026 07:59:59 UTC"
+  time: "Fri, 24 Apr 2026 18:26:31 UTC"
 record: -1
