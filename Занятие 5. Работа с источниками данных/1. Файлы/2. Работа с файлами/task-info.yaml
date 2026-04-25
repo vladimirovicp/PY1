@@ -11,12 +11,15 @@ files:
           offset: 351
         initialized_from_dependency: false
         encrypted_possible_answer: "with open(file, \"w\", encoding='utf-8') as f:"
-        selected: false
-        status: Unchecked
+        selected: true
+        status: Solved
     learner_created: false
   - name: __init__.py
     visible: false
     learner_created: false
-status: Unchecked
+  - name: output.txt
+    visible: true
+    learner_created: true
+status: Solved
 record: -1
 post_submission_on_open: true

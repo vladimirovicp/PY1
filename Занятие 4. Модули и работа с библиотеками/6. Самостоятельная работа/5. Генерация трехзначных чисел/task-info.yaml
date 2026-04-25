@@ -4,7 +4,7 @@ files:
     visible: true
     placeholders:
       - offset: 0
-        length: 57
+        length: 204
         placeholder_text: "# TODO написать функцию, которая выдает трехзначное число"
         initial_state:
           length: 57

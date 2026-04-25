@@ -15,8 +15,8 @@ files:
                   with open(OUTPUT_FILE, "w", encoding="utf-8") as output_file:
                       for line in input_file:
                           output_file.write(line.upper())
-        selected: false
-        status: Unchecked
+        selected: true
+        status: Solved
     learner_created: false
   - name: __init__.py
     visible: false
@@ -27,5 +27,11 @@ files:
   - name: input.txt
     visible: true
     learner_created: false
-status: Unchecked
+  - name: output.txt
+    visible: true
+    learner_created: true
+status: Solved
+feedback:
+  message: Congratulations!
+  time: "Sat, 25 Apr 2026 13:08:39 UTC"
 record: -1
