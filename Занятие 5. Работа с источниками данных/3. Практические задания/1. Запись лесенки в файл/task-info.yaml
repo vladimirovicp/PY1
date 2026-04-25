@@ -10,7 +10,7 @@ files:
     visible: true
     placeholders:
       - offset: 0
-        length: 0
+        length: 140
         placeholder_text: "...  # TODO построчно записать лесенку в файл"
         initial_state:
           length: 45
@@ -29,5 +29,5 @@ files:
 status: Solved
 feedback:
   message: Congratulations!
-  time: "Sat, 25 Apr 2026 12:55:59 UTC"
+  time: "Sat, 25 Apr 2026 15:01:13 UTC"
 record: -1

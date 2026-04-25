@@ -4,7 +4,7 @@ files:
     visible: true
     placeholders:
       - offset: 0
-        length: 0
+        length: 154
         placeholder_text: "# TODO Импортируйте модуль json"
         initial_state:
           length: 31
@@ -14,7 +14,7 @@ files:
         selected: true
         status: Solved
       - offset: 0
-        length: 154
+        length: 308
         placeholder_text: "...  # TODO Сериализуйте python объект в json строку с отст\
       упами"
         initial_state:
