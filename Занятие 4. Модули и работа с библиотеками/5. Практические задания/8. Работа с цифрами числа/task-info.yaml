@@ -4,7 +4,7 @@ files:
     visible: true
     placeholders:
       - offset: 38
-        length: 97
+        length: 226
         placeholder_text: "...  # TODO c помощью list comprehension получить список ци\
       фр числа"
         initial_state:
@@ -12,20 +12,20 @@ files:
           offset: 38
         initialized_from_dependency: false
         encrypted_possible_answer: "[int(digit) for digit in str(number)]"
-        selected: true
+        selected: false
         status: Solved
-      - offset: 143
-        length: 48
+      - offset: 272
+        length: 35
         placeholder_text: "...)  # TODO найти сумму цифр числа"
         initial_state:
           length: 35
           offset: 113
         initialized_from_dependency: false
         encrypted_possible_answer: sum(list_digits))
-        selected: true
+        selected: false
         status: Solved
-      - offset: 198
-        length: 84
+      - offset: 314
+        length: 42
         placeholder_text: "...)  # TODO найти сумму всех четных чисел"
         initial_state:
           length: 42
@@ -33,10 +33,10 @@ files:
         initialized_from_dependency: false
         encrypted_possible_answer: "sum([even_digit for even_digit in list_digits if even_digit\
       \ % 2 == 0]))"
-        selected: true
+        selected: false
         status: Solved
-      - offset: 289
-        length: 47
+      - offset: 363
+        length: 34
         placeholder_text: "...)  # TODO найти количество цифр"
         initial_state:
           length: 34
@@ -45,25 +45,25 @@ files:
         encrypted_possible_answer: len(list_digits))
         selected: false
         status: Solved
-      - offset: 343
-        length: 49
+      - offset: 404
+        length: 36
         placeholder_text: "...)  # TODO найти минимальную цифру"
         initial_state:
           length: 36
           offset: 245
         initialized_from_dependency: false
         encrypted_possible_answer: min(list_digits))
-        selected: true
+        selected: false
         status: Solved
-      - offset: 399
-        length: 107
+      - offset: 447
+        length: 59
         placeholder_text: "...)  # TODO найти разность между первой и последней цифрой"
         initial_state:
           length: 59
           offset: 288
         initialized_from_dependency: false
         encrypted_possible_answer: "list_digits[0] - list_digits[-1])"
-        selected: true
+        selected: false
         status: Solved
     learner_created: false
   - name: __init__.py
@@ -75,5 +75,5 @@ files:
 status: Solved
 feedback:
   message: Congratulations!
-  time: "Thu, 23 Apr 2026 18:38:26 UTC"
+  time: "Sat, 25 Apr 2026 14:49:01 UTC"
 record: -1

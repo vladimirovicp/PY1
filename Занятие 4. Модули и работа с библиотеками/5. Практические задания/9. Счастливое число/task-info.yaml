@@ -4,7 +4,7 @@ files:
     visible: true
     placeholders:
       - offset: 43
-        length: 193
+        length: 242
         placeholder_text: "...  # TODO проверить что число шестизначное и положительно\
       е"
         initial_state:
@@ -40,5 +40,5 @@ files:
 status: Solved
 feedback:
   message: Congratulations!
-  time: "Thu, 23 Apr 2026 19:14:43 UTC"
+  time: "Sat, 25 Apr 2026 14:49:04 UTC"
 record: -1

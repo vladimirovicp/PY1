@@ -4,7 +4,7 @@ files:
     visible: true
     placeholders:
       - offset: 93
-        length: 68
+        length: 0
         placeholder_text: "...  # TODO Десериализуйте содержимое файла из переменной INPUT_FILE"
         initial_state:
           length: 68
@@ -13,10 +13,10 @@ files:
         encrypted_possible_answer: |-
           with open(INPUT_FILE, encoding="utf-8") as f:
                   json_data = json.load(f)
-        selected: false
-        status: Unchecked
-      - offset: 167
-        length: 67
+        selected: true
+        status: Solved
+      - offset: 93
+        length: 141
         placeholder_text: "...  # TODO Сериализуйте содержимое в файл из переменной INPUT_FILE"
         initial_state:
           length: 67
@@ -25,8 +25,8 @@ files:
         encrypted_possible_answer: |-
           with open(OUTPUT_FILE, "w", encoding="utf-8") as f:
                   json.dump(json_data, f, indent=4, ensure_ascii=False)
-        selected: false
-        status: Unchecked
+        selected: true
+        status: Solved
     learner_created: false
   - name: __init__.py
     visible: false
@@ -37,5 +37,11 @@ files:
   - name: input.json
     visible: true
     learner_created: false
-status: Unchecked
+  - name: output.json
+    visible: true
+    learner_created: true
+status: Solved
+feedback:
+  message: Congratulations!
+  time: "Sat, 25 Apr 2026 14:07:56 UTC"
 record: -1
