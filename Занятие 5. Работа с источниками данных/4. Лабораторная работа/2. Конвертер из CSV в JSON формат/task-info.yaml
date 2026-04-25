@@ -9,8 +9,8 @@ files:
   - name: main.py
     visible: true
     placeholders:
-      - offset: 0
-        length: 39
+      - offset: 23
+        length: 40
         placeholder_text: "# TODO импортировать необходимые модули"
         initial_state:
           length: 39
@@ -19,10 +19,10 @@ files:
         encrypted_possible_answer: |-
           import csv
           import json
-        selected: false
-        status: Unchecked
-      - offset: 129
-        length: 40
+        selected: true
+        status: Solved
+      - offset: 152
+        length: 200
         placeholder_text: "...  # TODO считать содержимое csv файла"
         initial_state:
           length: 40
@@ -31,10 +31,10 @@ files:
         encrypted_possible_answer: |-
           with open(INPUT_FILENAME, encoding="utf-8") as f:
                   lines = [line for line in csv.DictReader(f)]
-        selected: false
-        status: Unchecked
-      - offset: 175
-        length: 54
+        selected: true
+        status: Solved
+      - offset: 358
+        length: 172
         placeholder_text: "...  # TODO Сериализовать в файл с отступами равными 4"
         initial_state:
           length: 54
@@ -43,12 +43,21 @@ files:
         encrypted_possible_answer: |-
           with open(OUTPUT_FILENAME, "w", encoding="utf-8") as f:
                   json.dump(lines, f, indent=4)
-        selected: false
-        status: Unchecked
+        selected: true
+        status: Solved
     learner_created: false
   - name: tests/output.txt
     visible: false
     learner_created: false
-status: Unchecked
+  - name: tests/output.json
+    visible: true
+    learner_created: true
+  - name: output.json
+    visible: true
+    learner_created: true
+status: Solved
+feedback:
+  message: Congratulations!
+  time: "Sat, 25 Apr 2026 20:35:52 UTC"
 record: -1
 solution_hidden: true
