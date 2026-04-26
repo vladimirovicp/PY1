@@ -4,6 +4,27 @@ OUTPUT_FILE = "output.csv"
 
 
 # TODO реализовать функцию to_csv_file
+def to_csv_file(filename,headers,rows,delimiter,new_line):
+
+    with open(filename, 'w', encoding='utf-8') as f:
+        lines = [delimiter.join(map(str, row)) for row in [headers] + rows]
+        f.write(new_line.join(lines))
+        if lines:  # Добавляем завершающий перенос строки, если нужно
+            f.write(new_line)
+
+    # Peek Solution
+    # with open(filename, 'w', encoding="utf-8") as file:
+    #     # Записываем заголовки
+    #     file.write(delimiter.join(headers))
+    #     file.write(new_line)
+    #
+    #     # Записываем строки с данными
+    #     for row in rows:
+    #         formatted_row = [str(value) for value in row]
+    #         file.write(delimiter.join(formatted_row))
+    #         file.write(new_line)
+
+
 
 
 if __name__ == '__main__':
@@ -17,6 +38,8 @@ if __name__ == '__main__':
     ]
 
     # TODO Вызовете функцию to_csv_file и запишите данные в файл
+    to_csv_file(OUTPUT_FILE,headers_list,data,",","\n")
+
 
     # Нужно для проверки задания
     if os.path.exists(OUTPUT_FILE):
