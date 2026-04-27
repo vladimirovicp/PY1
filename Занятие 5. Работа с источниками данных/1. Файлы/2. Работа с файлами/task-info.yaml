@@ -4,7 +4,7 @@ files:
     visible: true
     placeholders:
       - offset: 351
-        length: 69
+        length: 87
         placeholder_text: "with open(file, \"w\") as f:  # TODO Добавьте аргумент encoding='utf-8'"
         initial_state:
           length: 69

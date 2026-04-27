@@ -8,7 +8,12 @@ def task() -> list[dict]:
     with open(FILENAME, encoding="utf-8") as f:
         json_data = json.load(f)
 
-    ...  # TODO отсортировать и вернуть список словарей
+    # TODO отсортировать и вернуть список словарей
+
+    sorted_data = sorted(json_data, key=lambda x:x["id"])
+
+
+    return sorted_data
 
 
 if __name__ == '__main__':

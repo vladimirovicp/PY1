@@ -4,7 +4,7 @@ files:
     visible: true
     placeholders:
       - offset: 63
-        length: 0
+        length: 217
         placeholder_text: "...  # TODO Десериализуйте содержимое JSON файла"
         initial_state:
           length: 48
@@ -16,7 +16,7 @@ files:
         selected: true
         status: Solved
       - offset: 63
-        length: 130
+        length: 347
         placeholder_text: "...  # TODO Просуммируйте все значения по ключу contains_improvement_appeals"
         initial_state:
           length: 76
@@ -40,5 +40,5 @@ files:
 status: Solved
 feedback:
   message: Congratulations!
-  time: "Sat, 25 Apr 2026 14:28:24 UTC"
+  time: "Sat, 25 Apr 2026 15:02:41 UTC"
 record: -1

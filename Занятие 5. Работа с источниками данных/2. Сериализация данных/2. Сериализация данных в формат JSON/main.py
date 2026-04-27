@@ -12,10 +12,10 @@ data = {
 
 # Запись данных в файл в формате JSON
 with open(filename, 'w', encoding="utf-8") as file:
-    json.dump(data, file, indent=indent, ensure_ascii=ensure_ascii)
+    json.dump(data, file, indent=" ", ensure_ascii=False)
 
 # Сериализация данных в строку JSON
-json_data = json.dumps(data, indent=indent, ensure_ascii=ensure_ascii)
+json_data = json.dumps(data, indent=" ", ensure_ascii=False)
 print("Сериализация данных с помощью метода `dumps`:", json_data)
 
 # Чтение данных из файла в формате JSON

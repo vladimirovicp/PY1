@@ -9,8 +9,8 @@ files:
   - name: main.py
     visible: true
     placeholders:
-      - offset: 0
-        length: 65
+      - offset: 37
+        length: 223
         placeholder_text: |-
           # TODO решите задачу
           def task() -> float:
@@ -36,12 +36,15 @@ files:
           
           
           print(task())
-        selected: false
-        status: Unchecked
+        selected: true
+        status: Solved
     learner_created: false
   - name: tests/output.txt
     visible: false
     learner_created: false
-status: Unchecked
+status: Solved
+feedback:
+  message: Congratulations!
+  time: "Sat, 25 Apr 2026 19:57:08 UTC"
 record: -1
 solution_hidden: true
